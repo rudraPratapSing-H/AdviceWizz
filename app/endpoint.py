@@ -28,6 +28,8 @@ def handle_event(
 ) -> Response:
     print(data)
 
+    # This is where you implement the AI logic to handle the event
+
     # Return acceptance response
     return Response(
         content=json.dumps({"message": "Data received!"}),
