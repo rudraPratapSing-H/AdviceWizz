@@ -2,6 +2,8 @@
 
 A retrieval-augmented generation (RAG) chatbot with emotion detection, semantic memory, and multi-persona support for therapeutic conversations.
 
+**[📊 View Interactive System Design on Canva](https://www.canva.com/design/DAG2-viFGjE/ff0dIOGQKadJdCUGZjcXRA/edit?utm_content=DAG2-viFGjE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
+
 ---
 
 ## 🏗️ System Architecture
