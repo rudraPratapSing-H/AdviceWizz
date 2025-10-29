@@ -151,9 +151,10 @@ def handle_event(data: EventSchema) -> Response:
     semantic_memories = retrieve_semantic_memory(data.user_id, data.query, k=2)
     if semantic_memories:
         print("Semantic memories found")
-        full_context = f"Relevant past discussions:\n{chr(10).join(semantic_memories)}\n\n{full_context}"
+        memories = f"Relevant past discussions:\n{chr(10).join(semantic_memories)}"
     else:
         print("No semantic memories found")
+        memories = "No previous relevant discussions found."
     
     # Detect emotion
     emotion_prompt = f"""Based on this message, identify the user's emotional state:
@@ -167,7 +168,8 @@ def handle_event(data: EventSchema) -> Response:
     prompt = ChatPromptTemplate.from_template("""
 {style}
 Keep it like a conversation between two humans.. the user might ask you questions or they might give you answer of your question and you have to follow up.
-maximum 100 words.
+maximum 100 words. 
+Use these memories to optimize the response:- {memories}
 <context>
 {context}
 </context>
@@ -179,7 +181,8 @@ Question: {query}
         style=user_style,
         context=full_context,
         query=data.query,
-        emotion=emotion
+        emotion=emotion,
+        memories=memories
     )
     response = llm.invoke(prompt_str)
 
@@ -197,7 +200,7 @@ Question: {query}
         content=json.dumps({
             "message": "Data received!",
             "response": response,
-            "memories": semantic_memories,
+            "memories": memories,
             "emotion": emotion,
             "retrieved_meta": retrieved_meta,
             "history": memory,
