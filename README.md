@@ -260,7 +260,7 @@ fastapi-tutorial/
 ```bash
 # Clone the repository
 git clone <your-repo-url>
-cd fastapi-tutorial
+
 
 # Install dependencies
 pip install -r requirements.txt
