@@ -198,6 +198,9 @@ User Query (user_id, query, style_type_id)
 
 ## 🚀 Features
 
+### ✅ Custom Knowledge Base
+**Add your own documents!** Place any PDF books or documents in the `books/` folder and run `create_index2.py` to index them. The AI will use your custom knowledge sources to provide contextually relevant responses grounded in your chosen materials.
+
 ### ✅ Multi-Persona Support
 Choose from different AI personalities:
 - `hannibal` - Dr. Hannibal Lecter (analytical, unsettling)
@@ -274,7 +277,9 @@ ollama serve
 ollama pull llama3:8b
 ollama pull mxbai-embed-large
 
-# Index your PDF books
+# Add your knowledge sources
+# Place any documents or books (PDFs) you want to use as a knowledge source
+# in the books/ folder, then run:
 python app/create_index2.py
 
 # Run the server
