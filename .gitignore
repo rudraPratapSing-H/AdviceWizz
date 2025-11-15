@@ -97,3 +97,6 @@ target/
 
 # exclude lancedb from source control by default
 lancedb/
+
+# Conversation memory
+conversation_memory.json
