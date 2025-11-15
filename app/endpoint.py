@@ -187,7 +187,11 @@ Question: {query}
     response = llm.invoke(prompt_str)
 
     # Update memory
-    user_history.append({"query": data.query, "response": response})
+    user_history.append({
+        "query": data.query, 
+        "response": response,
+        "therapist": data.style_type_id
+    })
     memory[data.user_id] = user_history[-10:]
     save_memory(memory)
     
@@ -207,4 +211,18 @@ Question: {query}
             "style": user_style
         }), 
         status_code=HTTPStatus.ACCEPTED,
+    )
+
+@router.get("/history/{user_id}", dependencies=[])
+def get_user_history(user_id: str) -> Response:
+    """
+    Retrieve conversation history for a specific user.
+    """
+    memory = load_memory()
+    user_history = memory.get(user_id, [])
+    
+    return Response(
+        content=json.dumps({user_id: user_history}),
+        status_code=HTTPStatus.OK,
+        media_type="application/json"
     )
