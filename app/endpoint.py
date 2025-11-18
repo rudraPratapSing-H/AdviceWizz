@@ -1,26 +1,26 @@
 import json
 from http import HTTPStatus
 from datetime import datetime
+import os
 
 from fastapi import APIRouter
 from pydantic import BaseModel
 
-from starlette.responses import Response
+from starlette.responses import Response, FileResponse
 from langchain_core.prompts import ChatPromptTemplate
-import os
-
-from langchain.chains import ConversationChain
-from langchain.memory import ConversationBufferMemory
+from langchain_core.documents import Document
 
 from langchain_community.vectorstores import FAISS
 from langchain_ollama import OllamaEmbeddings, OllamaLLM
-from langchain.schema import Document
 
+# Get the directory where this file is located
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-MEMORY_FILE = "conversation_memory.json"
-STYLE_FILE = "response_style.json"
-FAISS_INDEX_PATH = "faiss_index2"
-MEMORY_FAISS_INDEX_PATH = "memory_faiss_index"
+MEMORY_FILE = os.path.join(BASE_DIR, "conversation_memory.json")
+STYLE_FILE = os.path.join(BASE_DIR, "response_style.json")
+FAISS_INDEX_PATH = os.path.join(BASE_DIR, "faiss_index2")
+MEMORY_FAISS_INDEX_PATH = os.path.join(BASE_DIR, "memory_faiss_index")
+LIBRARY_MANIFEST_FILE = os.path.join(BASE_DIR, "library_manifest.json")
 
 embeddings = OllamaEmbeddings(model="mxbai-embed-large")
 vectorstore = FAISS.load_local(
@@ -34,24 +34,25 @@ llm = OllamaLLM(model="llama3:8b")
 
 def load_memory():
     if not os.path.exists(MEMORY_FILE):
-        with open(MEMORY_FILE, "w", encoding="utf-8") as f:
-            json.dump({}, f)
         return {}
     with open(MEMORY_FILE, "r", encoding="utf-8") as f:
         return json.load(f)
     
 def load_style():
     if not os.path.exists(STYLE_FILE):
-        default = {"default": "You are a therapist"}
-        with open(STYLE_FILE, "w", encoding="utf-8") as f:
-            json.dump(default, f, ensure_ascii=False, indent=2)
-        return default
+        return {}
     with open(STYLE_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+def load_library_manifest():
+    if not os.path.exists(LIBRARY_MANIFEST_FILE):
+        return []
+    with open(LIBRARY_MANIFEST_FILE, "r", encoding="utf-8") as f:
         return json.load(f)
 
 def save_memory(memory):
     with open(MEMORY_FILE, "w", encoding="utf-8") as f:
-        json.dump(memory, f, ensure_ascii=False, indent=2)
+        json.dump(memory, f, indent=2, ensure_ascii=False)
 
 class EventSchema(BaseModel):
     user_id: str
@@ -64,76 +65,129 @@ def summarize_and_store_memory(user_id: str, user_history: list):
     for semantic memory retrieval.
     """
     if not user_history:
-        print("No user history to summarize")
         return
     
     conversation_text = "\n".join(
         [f"User: {m['query']}\nAssistant: {m['response']}" for m in user_history]
     )
     
-    summary_prompt = f"""Summarize the following conversation in 2-3 sentences, 
-    capturing the main topics and emotional tone:
+    summary_prompt = f"""Summarize the following conversation concisely, 
+    highlighting key topics, emotions, and important details:
     
     {conversation_text}
-    
-    Summary:"""
-    
+    """
     summary = llm.invoke(summary_prompt)
     
-    memory_doc = Document(
+    os.makedirs(MEMORY_FAISS_INDEX_PATH, exist_ok=True)
+    
+    index_path = os.path.join(MEMORY_FAISS_INDEX_PATH, user_id)
+    
+    doc = Document(
         page_content=summary,
-        metadata={
-            "user_id": user_id,
-            "timestamp": str(datetime.now()),
-            "original_length": len(user_history),
-            "type": "conversation_summary"
-        }
+        metadata={"user_id": user_id, "timestamp": datetime.now().isoformat()}
     )
     
-    if os.path.exists(MEMORY_FAISS_INDEX_PATH):
+    if os.path.exists(index_path):
         memory_vectorstore = FAISS.load_local(
-            MEMORY_FAISS_INDEX_PATH,
+            index_path,
             embeddings,
             allow_dangerous_deserialization=True
         )
-        memory_vectorstore.add_documents([memory_doc])
+        memory_vectorstore.add_documents([doc])
     else:
-        memory_vectorstore = FAISS.from_documents([memory_doc], embeddings)
+        memory_vectorstore = FAISS.from_documents([doc], embeddings)
     
-    memory_vectorstore.save_local(MEMORY_FAISS_INDEX_PATH)
-    print(f"Memory summarized and stored for user: {user_id}")
+    memory_vectorstore.save_local(index_path)
+    print(f"Memory summary stored for user {user_id}")
+
+def route_to_book(query: str) -> str:
+    """
+    Routes the query to the most relevant book by comparing query embedding
+    with book description embeddings.
+    Returns the book ID (filename) of the most relevant book.
+    """
+    library_manifest = load_library_manifest()
+    
+    if not library_manifest:
+        print("No library manifest found, using all books")
+        return None
+    
+    # Get query embedding
+    query_embedding = embeddings.embed_query(query)
+    
+    # Calculate cosine similarity with each book description
+    from numpy import dot
+    from numpy.linalg import norm
+    
+    best_match = None
+    best_similarity = -1
+    
+    for book in library_manifest:
+        if "embedding" not in book:
+            print(f"No embedding found for {book['title']}, skipping")
+            continue
+        
+        book_embedding = book["embedding"]
+        
+        # Cosine similarity
+        similarity = dot(query_embedding, book_embedding) / (norm(query_embedding) * norm(book_embedding))
+        
+        if similarity > best_similarity:
+            best_similarity = similarity
+            best_match = book["id"]
+    
+    print(f"Routed to book: {best_match} (similarity: {best_similarity:.4f})")
+    return best_match
 
 def retrieve_semantic_memory(user_id: str, query: str, k: int = 3):
     """
-    Retrieves relevant past conversation summaries using semantic search.
+    Retrieves relevant semantic memories for a user based on the query.
     """
-    if not os.path.exists(MEMORY_FAISS_INDEX_PATH):
-        print("No semantic memory index found")
+    index_path = os.path.join(MEMORY_FAISS_INDEX_PATH, user_id)
+    
+    if not os.path.exists(index_path):
         return []
     
-    memory_vectorstore = FAISS.load_local(
-        MEMORY_FAISS_INDEX_PATH,
-        embeddings,
-        allow_dangerous_deserialization=True
-    )
-    
-    docs = memory_vectorstore.similarity_search(query, k=k)
-    filtered_docs = [doc for doc in docs if doc.metadata.get("user_id") == user_id]
-    
-    return [doc.page_content for doc in filtered_docs]
+    try:
+        memory_vectorstore = FAISS.load_local(
+            index_path,
+            embeddings,
+            allow_dangerous_deserialization=True
+        )
+        docs = memory_vectorstore.similarity_search(query, k=k)
+        return [doc.page_content for doc in docs]
+    except Exception as e:
+        print(f"Error retrieving semantic memory: {e}")
+        return []
+
 
 @router.post("/", dependencies=[])
 def handle_event(data: EventSchema) -> Response:
     print(data)
     
-    # Retrieve relevant context from FAISS
-    docs = vectorstore.similarity_search(data.query, k=7)
+    # Step 1: Route query to most relevant book
+    target_book_id = route_to_book(data.query)
+    
+    # Step 2: Retrieve relevant context from FAISS, filtered by book
+    if target_book_id:
+        # Filter search to only the routed book
+        all_docs = vectorstore.similarity_search(data.query, k=50)  # Get more docs to filter
+        docs = [doc for doc in all_docs if doc.metadata.get("book") == target_book_id][:7]
+        print(f"Found {len(docs)} chunks from {target_book_id}")
+    else:
+        # No routing, search all books
+        docs = vectorstore.similarity_search(data.query, k=7)
+    
     retrieved_contexts = []
-    retrieved_meta = []
+    retrieved_sources = []
     for doc in docs:
         retrieved_contexts.append(doc.page_content)
         meta = doc.metadata or {}
-        retrieved_meta.append(meta)
+        retrieved_sources.append({
+            "book": meta.get("book", "Unknown"),
+            "page": meta.get("page", "N/A"),
+            "chunk": doc.page_content
+        })
     
     retrieved_context = "\n\n".join(retrieved_contexts)
     
@@ -168,7 +222,7 @@ def handle_event(data: EventSchema) -> Response:
     prompt = ChatPromptTemplate.from_template("""
 {style}
 Keep it like a conversation between two humans.. the user might ask you questions or they might give you answer of your question and you have to follow up.
-maximum 100 words. 
+maximum 100 words and keep the size of your response concise dont bluff. 
 Use these memories to optimize the response:- {memories}
 <context>
 {context}
@@ -206,7 +260,7 @@ Question: {query}
             "response": response,
             "memories": memories,
             "emotion": emotion,
-            "retrieved_meta": retrieved_meta,
+            "retrieved_sources": retrieved_sources,
             "history": memory,
             "style": user_style
         }), 
@@ -214,15 +268,17 @@ Question: {query}
     )
 
 @router.get("/history/{user_id}", dependencies=[])
-def get_user_history(user_id: str) -> Response:
+def get_chat_history(user_id: str) -> Response:
     """
-    Retrieve conversation history for a specific user.
+    Get chat history for a specific user.
     """
     memory = load_memory()
     user_history = memory.get(user_id, [])
     
     return Response(
-        content=json.dumps({user_id: user_history}),
+        content=json.dumps({
+            user_id: user_history
+        }),
         status_code=HTTPStatus.OK,
         media_type="application/json"
     )

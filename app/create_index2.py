@@ -3,14 +3,13 @@
 import os
 import re
 from langchain_community.document_loaders import PyPDFDirectoryLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import OllamaEmbeddings
-from langchain_openai import OpenAIEmbeddings
+from langchain_ollama import OllamaEmbeddings
 
 # --- Configuration ---
 # 1. Set the path to your folder containing the PDF files
-BOOK_FOLDER_PATH = "books" # Example path
+BOOK_FOLDER_PATH = "docs" # Example path
 
 # 2. Set the path where you want to save the FAISS index
 FAISS_INDEX_PATH = "faiss_index2"

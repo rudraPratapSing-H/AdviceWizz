@@ -103,3 +103,4 @@ conversation_memory.json
 
 # FAISS indexes
 memory_faiss_index/
+faiss_index_*/
