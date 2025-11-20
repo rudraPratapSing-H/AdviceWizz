@@ -81,58 +81,65 @@ User Query (user_id, query, style_type_id)
 └────────────┬───────────────────────┘
              ▼
 ┌────────────────────────────────────┐
-│  3. Emotion Detection              │
+│  3. Semantic Routing               │
+│     - Convert query to embedding   │
+│     - Compare with book descriptions│
+│     - Route to most relevant book  │
+└────────────┬───────────────────────┘
+             ▼
+┌────────────────────────────────────┐
+│  4. Emotion Detection              │
 │     - Analyze user's emotional     │
 │       state via LLM                │
 └────────────┬───────────────────────┘
              ▼
 ┌────────────────────────────────────┐
-│  4. Context Retrieval (RAG)        │
-│     - FAISS similarity search      │
+│  5. Context Retrieval (RAG)        │
+│     - Filter FAISS by routed book  │
 │     - Retrieve top 7 chunks        │
 │     - Extract metadata (book/page) │
 └────────────┬───────────────────────┘
              ▼
 ┌────────────────────────────────────┐
-│  5. Semantic Memory Retrieval      │
+│  6. Semantic Memory Retrieval      │
 │     - Search conversation summaries│
 │     - Retrieve top 2 relevant      │
 │       past discussions             │
 └────────────┬───────────────────────┘
              ▼
 ┌────────────────────────────────────┐
-│  6. Build Context                  │
+│  7. Build Context                  │
 │     - Combine: style + knowledge + │
 │       history + semantic memory +  │
 │       emotion                      │
 └────────────┬───────────────────────┘
              ▼
 ┌────────────────────────────────────┐
-│  7. Generate Response              │
+│  8. Generate Response              │
 │     - LLM invocation with prompt   │
 │     - Max 100 words                │
 └────────────┬───────────────────────┘
              ▼
 ┌────────────────────────────────────┐
-│  8. Update Memory                  │
+│  9. Update Memory                  │
 │     - Append to user history       │
 │     - Keep last 10 exchanges       │
 │     - Save to JSON                 │
 └────────────┬───────────────────────┘
              ▼
 ┌────────────────────────────────────┐
-│  9. Conditional Summarization      │
+│ 10. Conditional Summarization      │
 │     - Every 5 exchanges:           │
 │       * Summarize conversation     │
 │       * Store in memory_faiss_index│
 └────────────┬───────────────────────┘
              ▼
 ┌────────────────────────────────────┐
-│ 10. Return Response                │
+│ 11. Return Response                │
 │     - response text                │
 │     - emotion analysis             │
 │     - semantic memories            │
-│     - metadata (book/page)         │
+│     - retrieved_sources (book/chunk)│
 │     - conversation history         │
 └────────────────────────────────────┘
 ```
@@ -156,6 +163,8 @@ User Query (user_id, query, style_type_id)
 | `load_memory()` | Load user conversation history from JSON |
 | `save_memory()` | Persist updated conversation history |
 | `load_style()` | Load AI persona definitions |
+| `load_library_manifest()` | Load book descriptions with embeddings |
+| `route_to_book()` | Route query to most relevant book using cosine similarity |
 | `summarize_and_store_memory()` | Create summaries and store in FAISS |
 | `retrieve_semantic_memory()` | Retrieve past conversation summaries |
 | `handle_event()` | Main endpoint handler |
@@ -165,6 +174,7 @@ User Query (user_id, query, style_type_id)
 #### JSON Files
 - **`conversation_memory.json`** - Recent chat history (last 10 exchanges per user)
 - **`response_style.json`** - AI persona definitions (hannibal, kneeting, ANDY, etc.)
+- **`library_manifest.json`** - Book descriptions and embeddings for semantic routing
 
 #### Vector Stores (FAISS)
 - **`faiss_index2/`** - Knowledge base from PDF books
@@ -198,8 +208,16 @@ User Query (user_id, query, style_type_id)
 
 ## 🚀 Features
 
-### ✅ Custom Knowledge Base
-**Add your own documents!** Place any PDF books or documents in the `books/` folder and run `create_index2.py` to index them. The AI will use your custom knowledge sources to provide contextually relevant responses grounded in your chosen materials.
+### ✅ Semantic Routing (Intelligent Book Selection)
+**Smart context retrieval!** The system uses semantic routing to intelligently select the most relevant book before searching. When you ask a query:
+1. Your query is converted to an embedding vector
+2. Compared against book description embeddings in `library_manifest.json`
+3. Routes to the book with highest cosine similarity
+4. Only searches chunks from that specific book
+
+This prevents cross-contamination between books and ensures highly relevant responses.
+
+**Add your own documents!** Place any PDF books or documents in the `books/` folder, run `create_index2.py` to index them, then run `embed_manifest.py` to generate embeddings for the book descriptions.
 
 ### ✅ Multi-Persona Support
 Choose from different AI personalities:
@@ -216,8 +234,9 @@ Analyzes user's emotional state:
 
 ### ✅ RAG (Retrieval-Augmented Generation)
 - Retrieves relevant knowledge from PDF books
-- Returns top 7 chunks with metadata (book name, page number)
-- Grounds responses in factual content
+- Filters search by semantically routed book
+- Returns top 7 chunks with book name, page number, and text content
+- Grounds responses in factual, contextually relevant content
 
 ### ✅ Semantic Memory
 - Stores conversation summaries every 5 exchanges
