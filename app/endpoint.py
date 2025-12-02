@@ -100,17 +100,17 @@ def summarize_and_store_memory(user_id: str, user_history: list):
     memory_vectorstore.save_local(index_path)
     print(f"Memory summary stored for user {user_id}")
 
-def route_to_book(query: str) -> str:
+def route_to_book(query: str) -> tuple:
     """
     Routes the query to the most relevant book by comparing query embedding
     with book description embeddings.
-    Returns the book ID (filename) of the most relevant book.
+    Returns tuple of (primary_book_id, secondary_book_id) based on similarity.
     """
     library_manifest = load_library_manifest()
     
     if not library_manifest:
         print("No library manifest found, using all books")
-        return None
+        return None, None
     
     # Get query embedding
     query_embedding = embeddings.embed_query(query)
@@ -119,8 +119,7 @@ def route_to_book(query: str) -> str:
     from numpy import dot
     from numpy.linalg import norm
     
-    best_match = None
-    best_similarity = -1
+    similarities = []
     
     for book in library_manifest:
         if "embedding" not in book:
@@ -131,13 +130,92 @@ def route_to_book(query: str) -> str:
         
         # Cosine similarity
         similarity = dot(query_embedding, book_embedding) / (norm(query_embedding) * norm(book_embedding))
-        
-        if similarity > best_similarity:
-            best_similarity = similarity
-            best_match = book["id"]
+        similarities.append((book["id"], similarity))
     
-    print(f"Routed to book: {best_match} (similarity: {best_similarity:.4f})")
-    return best_match
+    # Sort by similarity (highest first)
+    similarities.sort(key=lambda x: x[1], reverse=True)
+    
+    primary_book = similarities[0][0] if len(similarities) > 0 else None
+    secondary_book = similarities[1][0] if len(similarities) > 1 else None
+    
+    print(f"Routed to primary: {primary_book} (similarity: {similarities[0][1]:.4f}), secondary: {secondary_book} (similarity: {similarities[1][1]:.4f if len(similarities) > 1 else 'N/A'})")
+    
+    return primary_book, secondary_book
+
+def retrieve_chunks_recursive(query: str, target_chunks: int = 7, blacklisted_books: list = None, all_docs: list = None) -> list:
+    """
+    Recursively retrieves chunks, routing to the most relevant book.
+    If not enough chunks are found, recursively searches the next most relevant book.
+    
+    Args:
+        query: The user's query
+        target_chunks: Target number of chunks to retrieve (default 7)
+        blacklisted_books: List of book IDs already searched (to avoid duplicates)
+        all_docs: Pre-fetched FAISS results to avoid multiple searches
+    
+    Returns:
+        List of documents matching the target chunk count
+    """
+    if blacklisted_books is None:
+        blacklisted_books = []
+    
+    # Fetch all docs once at the start
+    if all_docs is None:
+        all_docs = vectorstore.similarity_search(query, k=100)
+    
+    # Route to the most relevant book (excluding blacklisted ones)
+    library_manifest = load_library_manifest()
+    
+    if not library_manifest:
+        print("No library manifest found, returning all docs")
+        return all_docs[:target_chunks]
+    
+    # Get query embedding
+    query_embedding = embeddings.embed_query(query)
+    
+    # Calculate cosine similarity with each book description
+    from numpy import dot
+    from numpy.linalg import norm
+    
+    similarities = []
+    
+    for book in library_manifest:
+        if "embedding" not in book or book["id"] in blacklisted_books:
+            continue
+        
+        book_embedding = book["embedding"]
+        similarity = dot(query_embedding, book_embedding) / (norm(query_embedding) * norm(book_embedding))
+        similarities.append((book["id"], similarity))
+    
+    # Sort by similarity (highest first)
+    similarities.sort(key=lambda x: x[1], reverse=True)
+    
+    if not similarities:
+        # No more books to search
+        print("No more books to search, returning collected docs")
+        return all_docs[:target_chunks]
+    
+    best_book = similarities[0][0]
+    print(f"Searching in book: {best_book} (similarity: {similarities[0][1]:.4f})")
+    
+    # Get chunks from this book
+    docs = [doc for doc in all_docs if doc.metadata.get("book") == best_book][:target_chunks]
+    print(f"Found {len(docs)} chunks from {best_book}")
+    
+    # If we have enough chunks, return them
+    if len(docs) >= target_chunks:
+        return docs
+    
+    # Otherwise, recursively search the next book
+    remaining_needed = target_chunks - len(docs)
+    print(f"Need {remaining_needed} more chunks, recursing...")
+    
+    blacklisted_books.append(best_book)
+    remaining_docs = retrieve_chunks_recursive(query, remaining_needed, blacklisted_books, all_docs)
+    
+    # Combine and return
+    docs.extend(remaining_docs)
+    return docs[:target_chunks]
 
 def retrieve_semantic_memory(user_id: str, query: str, k: int = 3):
     """
@@ -165,18 +243,8 @@ def retrieve_semantic_memory(user_id: str, query: str, k: int = 3):
 def handle_event(data: EventSchema) -> Response:
     print(data)
     
-    # Step 1: Route query to most relevant book
-    target_book_id = route_to_book(data.query)
-    
-    # Step 2: Retrieve relevant context from FAISS, filtered by book
-    if target_book_id:
-        # Filter search to only the routed book
-        all_docs = vectorstore.similarity_search(data.query, k=50)  # Get more docs to filter
-        docs = [doc for doc in all_docs if doc.metadata.get("book") == target_book_id][:7]
-        print(f"Found {len(docs)} chunks from {target_book_id}")
-    else:
-        # No routing, search all books
-        docs = vectorstore.similarity_search(data.query, k=7)
+    # Step 1 & 2: Recursively retrieve chunks, routing through books by relevance
+    docs = retrieve_chunks_recursive(data.query, target_chunks=7)
     
     retrieved_contexts = []
     retrieved_sources = []
