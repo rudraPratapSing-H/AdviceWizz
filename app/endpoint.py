@@ -13,24 +13,23 @@ from langchain_core.documents import Document
 from langchain_community.vectorstores import FAISS
 from langchain_ollama import OllamaEmbeddings, OllamaLLM
 
+from app.retrieval.search_engine import retrieve_for_keywords
+from app.nlp.query_optimizer import optimize_query
+from app.generation.response_generator import generate_response
+
 # Get the directory where this file is located
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-MEMORY_FILE = os.path.join(BASE_DIR, "conversation_memory.json")
-STYLE_FILE = os.path.join(BASE_DIR, "response_style.json")
-FAISS_INDEX_PATH = os.path.join(BASE_DIR, "faiss_index2")
+MEMORY_FILE = os.path.join(BASE_DIR, "Json", "conversation_memory.json")
+STYLE_FILE = os.path.join(BASE_DIR, "Json", "response_style.json")
 MEMORY_FAISS_INDEX_PATH = os.path.join(BASE_DIR, "memory_faiss_index")
-LIBRARY_MANIFEST_FILE = os.path.join(BASE_DIR, "library_manifest.json")
+LIBRARY_MANIFEST_FILE = os.path.join(BASE_DIR, "Json", "library_manifest.json")
 
 embeddings = OllamaEmbeddings(model="mxbai-embed-large")
-vectorstore = FAISS.load_local(
-    FAISS_INDEX_PATH,
-    embeddings,
-    allow_dangerous_deserialization=True
-)
+
 
 router = APIRouter()
-llm = OllamaLLM(model="llama3:8b")
+llm = OllamaLLM(model="llama3.1:8b")
 
 def load_memory():
     if not os.path.exists(MEMORY_FILE):
@@ -142,81 +141,7 @@ def route_to_book(query: str) -> tuple:
     
     return primary_book, secondary_book
 
-def retrieve_chunks_recursive(query: str, target_chunks: int = 7, blacklisted_books: list = None, all_docs: list = None) -> list:
-    """
-    Recursively retrieves chunks, routing to the most relevant book.
-    If not enough chunks are found, recursively searches the next most relevant book.
-    
-    Args:
-        query: The user's query
-        target_chunks: Target number of chunks to retrieve (default 7)
-        blacklisted_books: List of book IDs already searched (to avoid duplicates)
-        all_docs: Pre-fetched FAISS results to avoid multiple searches
-    
-    Returns:
-        List of documents matching the target chunk count
-    """
-    if blacklisted_books is None:
-        blacklisted_books = []
-    
-    # Fetch all docs once at the start
-    if all_docs is None:
-        all_docs = vectorstore.similarity_search(query, k=100)
-    
-    # Route to the most relevant book (excluding blacklisted ones)
-    library_manifest = load_library_manifest()
-    
-    if not library_manifest:
-        print("No library manifest found, returning all docs")
-        return all_docs[:target_chunks]
-    
-    # Get query embedding
-    query_embedding = embeddings.embed_query(query)
-    
-    # Calculate cosine similarity with each book description
-    from numpy import dot
-    from numpy.linalg import norm
-    
-    similarities = []
-    
-    for book in library_manifest:
-        if "embedding" not in book or book["id"] in blacklisted_books:
-            continue
-        
-        book_embedding = book["embedding"]
-        similarity = dot(query_embedding, book_embedding) / (norm(query_embedding) * norm(book_embedding))
-        similarities.append((book["id"], similarity))
-    
-    # Sort by similarity (highest first)
-    similarities.sort(key=lambda x: x[1], reverse=True)
-    
-    if not similarities:
-        # No more books to search
-        print("No more books to search, returning collected docs")
-        return all_docs[:target_chunks]
-    
-    best_book = similarities[0][0]
-    print(f"Searching in book: {best_book} (similarity: {similarities[0][1]:.4f})")
-    
-    # Get chunks from this book
-    docs = [doc for doc in all_docs if doc.metadata.get("book") == best_book][:target_chunks]
-    print(f"Found {len(docs)} chunks from {best_book}")
-    
-    # If we have enough chunks, return them
-    if len(docs) >= target_chunks:
-        return docs
-    
-    # Otherwise, recursively search the next book
-    remaining_needed = target_chunks - len(docs)
-    print(f"Need {remaining_needed} more chunks, recursing...")
-    
-    blacklisted_books.append(best_book)
-    remaining_docs = retrieve_chunks_recursive(query, remaining_needed, blacklisted_books, all_docs)
-    
-    # Combine and return
-    docs.extend(remaining_docs)
-    return docs[:target_chunks]
-
+# The retrieve_chunks_recursive function has been moved to retrieval/search_engine.py
 def retrieve_semantic_memory(user_id: str, query: str, k: int = 3):
     """
     Retrieves relevant semantic memories for a user based on the query.
@@ -241,10 +166,14 @@ def retrieve_semantic_memory(user_id: str, query: str, k: int = 3):
 
 @router.post("/", dependencies=[])
 def handle_event(data: EventSchema) -> Response:
-    print(data)
+    print(f"Received request: {data}")
     
-    # Step 1 & 2: Recursively retrieve chunks, routing through books by relevance
-    docs = retrieve_chunks_recursive(data.query, target_chunks=7)
+    # Step 1: Optimize Query
+    keywords = optimize_query(data.query)
+    print(f"Optimized keywords: {keywords}")
+    
+    # Step 2: Batched Retrieval (Retrieve -> Re-rank -> Expand)
+    docs = retrieve_for_keywords(keywords)
     
     retrieved_contexts = []
     retrieved_sources = []
@@ -278,35 +207,14 @@ def handle_event(data: EventSchema) -> Response:
         print("No semantic memories found")
         memories = "No previous relevant discussions found."
     
-    # Detect emotion
-    emotion_prompt = f"""Based on this message, identify the user's emotional state:
-
-    "{data.query}"
-
-    Respond with: emotion name, intensity (1-10), and brief explanation."""
-    emotion = llm.invoke(emotion_prompt)
-
-    # Generate response
-    prompt = ChatPromptTemplate.from_template("""
-{style}
-Keep it like a conversation between two humans.. the user might ask you questions or they might give you answer of your question and you have to follow up.
-maximum 100 words and keep the size of your response concise dont bluff. 
-Use these memories to optimize the response:- {memories}
-<context>
-{context}
-</context>
-User emotion state:- {emotion}. Now you give response addressing user's emotion.
-
-Question: {query}
-""")
-    prompt_str = prompt.format(
-        style=user_style,
-        context=full_context,
+    # Step 3: Generate Response
+    response, emotion = generate_response(
         query=data.query,
-        emotion=emotion,
-        memories=memories
+        retrieved_context=retrieved_context,
+        memory_context=memories,
+        user_style=user_style,
+        user_history=user_history
     )
-    response = llm.invoke(prompt_str)
 
     # Update memory
     user_history.append({

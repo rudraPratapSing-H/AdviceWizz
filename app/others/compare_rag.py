@@ -34,7 +34,7 @@ ENDPOINT_URL = "http://localhost:8000/chat/"
 def load_response_style(style_type_id: str = "default") -> str:
     """Load the response style prompt from response_style.json"""
     try:
-        with open("response_style.json", "r", encoding="utf-8") as f:
+        with open("../Json/response_style.json", "r", encoding="utf-8") as f:
             styles = json.load(f)
             return styles.get(style_type_id, styles.get("default", "You are a helpful assistant."))
     except FileNotFoundError:
@@ -230,7 +230,7 @@ def test_with_sample_context():
         result = compare_responses(query, sample_context, style_type_id="default")
         results.append(result)
     
-    with open("rag_comparison_results.json", "w", encoding="utf-8") as f:
+    with open("../Json/rag_comparison_results.json", "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2)
     
     print(f"\n{'='*80}")
@@ -282,7 +282,7 @@ if __name__ == "__main__":
         results.append(result)
     
     # Save results to JSON
-    output_file = "rag_comparison_results.json"
+    output_file = "../Json/rag_comparison_results.json"
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
     

@@ -18,7 +18,8 @@ st.set_page_config(
     layout="wide"
 )
 
-JSON_PATH = r"c:\Projects\AdviceWizz\AdviceWizz\app\rag_comparison_results.json"
+import os
+JSON_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "Json", "rag_comparison_results.json")
 # Load data
 @st.cache_data
 def load_comparison_data():

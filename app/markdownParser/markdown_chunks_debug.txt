@@ -1,0 +1,1725 @@
+====================================================================================================
+MARKDOWN CHUNKS DEBUG FILE
+====================================================================================================
+
+
+====================================================================================================
+CHUNK #1
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 3, 'chapter': '**Contents**'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+_Title Page_
+_Foreword by David Bonnstetter_
+_Introduction: The Man Who Was Surrounded by Idiots_  
+**1. Communication Happens on the Listener’s Terms**
+**2. Why Are We the Way We Are?**
+**3. An Introduction to the System**
+**4. Red Behavior:** How to Recognize a Real Alpha and Avoid Getting in His
+Way
+**5. Yellow Behavior:** How to Recognize Someone Whose Head Is in the Clouds
+and Get Him Back to Reality Again
+**6. Green Behavior:** Why Change Is So Difficult and How to Get Around It
+**7. Blue Behavior:** In Pursuit of Perfection
+**8. No One Is Completely Perfect:** Strengths and Weaknesses
+**9. Learning New Things:** How to Use What You’ve Learned
+**10. Body Language: Why How You Move Matters:** How Do You Really Look?
+**11. A Real-Life Example: The Company Party—** How to Understand Everyone
+You Meet
+**12. Adaptation:** How to Handle Idiots (i.e., Everyone Who Isn’t like You)
+**13. How to Deliver Really Bad News:** The Challenge of Speaking Your Mind
+
+
+====================================================================================================
+CHUNK #2
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 3, 'chapter': '**Contents**'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+You Meet
+**12. Adaptation:** How to Handle Idiots (i.e., Everyone Who Isn’t like You)
+**13. How to Deliver Really Bad News:** The Challenge of Speaking Your Mind
+**14. Who Gets Along and Why It Works:** Group Dynamics at Their Finest
+**15. Written Communication:** How to Evaluate Someone When You Can’t Meet
+in Person  
+3
+
+
+====================================================================================================
+CHUNK #3
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 4, 'chapter': '**Contents**'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+**16. What Makes Us as Mad as Hell?:** Temperament Can Reveal Everything
+About a Person
+**17. Stress Factors and Energy Thieves:** What Is Stress?
+**18. A Short Reflection Through History:** People Have Always Been like This
+**19. Voices from Real Life**
+**20. A Quick Little Quiz to See What You’ve Learned**
+**21. A Final Example from Everyday Life:** Perhaps the Most Enlightening Team
+Project in the History of the World  
+_The Answers to the Questions in Chapter 20_
+_Further Reading_
+_Index_
+_About the Author_  
+4
+
+
+====================================================================================================
+CHUNK #4
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 5, 'chapter': 'Foreword'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+_Many years ago, Bill Bonnstetter and his son David developed a revolutionary_
+_software system based on the DISC method—a way of describing human_
+_communication and classifying behavior and the method that is used throughout_
+_this book. Sadly, Bill has since passed away, but David continues to run their_
+_company—TTI Success Insights—to this day. From its humble origins in rural_
+_Iowa, this method of behavior profiling has now been used by businesses and_
+_corporations all around the world._  
+It all began with one question. A simple, specific question: Could an agricultural
+salesperson sell more seed simply by looking at a farm?
+As a child growing up in rural Iowa, I watched my father apply the
+foundational principles of William Moulton Marston’s _Emotions of Normal_
+_People._ At the time, my father was focused on Buyer Profile Blending, giving
+agricultural salespeople the knowledge of Marston’s tools to better understand
+
+
+====================================================================================================
+CHUNK #5
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 5, 'chapter': 'Foreword'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+_People._ At the time, my father was focused on Buyer Profile Blending, giving
+agricultural salespeople the knowledge of Marston’s tools to better understand
+themselves and their farmer customers. I can still recall the earliest days, sitting at
+a knotty-pine table over meals of hot pork tenderloins and roast corn, when my
+father was working through his observations. “Pristine driveways and neat
+groves? Definitely a Blue. New and experimental livestock and buildings? You’re
+looking at a Red.”
+Although we were close, our paths were incredibly different. My father, a true
+entrepreneur and Red/Yellow in every sense of the phrase, was driven to build
+consulting firms and agencies that helped salespeople refine their craft. I sought
+the collegiate path, attending university at the University of Iowa, leaning into my
+Red/Blue nature while studying accounting and computer science. I spent my free
+time in the computer lab, pouring my soul into programs through my fingertips.
+
+
+====================================================================================================
+CHUNK #6
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 5, 'chapter': 'Foreword'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+Red/Blue nature while studying accounting and computer science. I spent my free
+time in the computer lab, pouring my soul into programs through my fingertips.
+While I was studying, my father perfected his wizardlike ability to understand
+people.
+My father and I always remained close and spoke to each other most weeks,
+even though we were at different milestones in our lives. While I was studying at  
+5
+
+
+====================================================================================================
+CHUNK #7
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 6, 'chapter': 'Foreword'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+the University of Iowa, my father sat me down and asked me about contributing
+to his venture. He asked, “What if we could couple your ability to develop
+software with my ability to analyze human behavior?” I was ambitious, hungry
+for fun coding work, and proceeded to embark on the most exciting journey of my
+life. Together, we built a software system that would produce reports about
+human behavior. This was a multiplying factor; soon we were able to reach more
+people and reveal a person’s potential through 3.5-inch floppy disks and twentyfour-page reports. My father and I built a company, TTI Success Insights, in 1984
+in Iowa to do just that.
+Over time, we escaped the frigid winters in the Midwest of the United States,
+relocated ourselves, our families, and our business to sunny and warm Scottsdale,
+Arizona. In the late nineties, we began using the web for distribution of our famed
+assessments. Today, we have a thriving business with distributors all over the
+world.
+
+
+====================================================================================================
+CHUNK #8
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 6, 'chapter': 'Foreword'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+Arizona. In the late nineties, we began using the web for distribution of our famed
+assessments. Today, we have a thriving business with distributors all over the
+world.
+Up until now, you might have wondered why you are so different. Human
+behavior is, for the most part, complex and nebulous. In some cases, the people
+around us are idiotic. Understanding human behavior is a never-ending task, an
+endless pursuit to know the how, what, and why behind a person’s choices. It is
+both easy and dangerous to categorize someone who behaves differently from you
+as ignorant, wrong, or even thickheaded. Today’s world requires a more
+sophisticated understanding where you value a person for his or her strengths and
+weaknesses.
+My father has since passed on. But the purpose we invoked, to reveal human
+potential, continues to live on. This book is written about the concepts my father
+applied in sales trainings and applies them to an even more complex situation—
+
+
+====================================================================================================
+CHUNK #9
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 6, 'chapter': 'Foreword'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+potential, continues to live on. This book is written about the concepts my father
+applied in sales trainings and applies them to an even more complex situation—
+understanding the idiots who surround us all.
+As you read, I think you will understand the worth of a Red, a Yellow, a
+Green, and a Blue. I hope you will pull away some practical advice in
+communicating effectively with each type. But the most important lesson that you
+can walk away with is that the idiots who surround you are, in fact, not idiots at
+all. Instead, they are individuals worthy of respect, understanding, and being
+valued.
+Anyone can use the frameworks outlined in this book to get ahead in the game
+of life. And look at it this way: If you don’t understand and use the principles,
+you’ll continue to be surrounded by idiots. And nobody wants that.  
+6
+
+
+====================================================================================================
+CHUNK #10
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 7, 'chapter': 'Foreword'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+—David Bonnstetter
+_Chief Executive Officer_
+_TTI Success Insights_  
+7
+
+
+====================================================================================================
+CHUNK #11
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 8, 'chapter': 'Introduction'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+The Man Who Was Surrounded by Idiots  
+I was in high school when I first noticed that I got along better with certain people
+rather than others. It was easy to talk to some of my friends; in any conversation,
+we always found the right words and everything just flowed smoothly. There
+were never any conflicts, and we liked one another. With other people, however,
+everything just went wrong. What I said fell on deaf ears, and I couldn’t
+understand why.
+Why was speaking to some people so easy, while others were total
+blockheads? Since I was young, this certainly wasn’t something that kept me
+awake at night. However, I still remember puzzling over why some conversations
+flowed naturally, while others didn’t even start—no matter how I conducted
+myself. It was just incomprehensible. I began using different methods to test
+people. I tried to say the same things in similar contexts just to see what reaction I
+got. Sometimes it actually worked and an interesting discussion developed. On
+
+
+====================================================================================================
+CHUNK #12
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 8, 'chapter': 'Introduction'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+people. I tried to say the same things in similar contexts just to see what reaction I
+got. Sometimes it actually worked and an interesting discussion developed. On
+other occasions, nothing happened at all. People just stared at me as if I were
+from another planet, and sometimes it really felt that way.
+When we’re young, we tend to think of things very simply. Because some
+people in my circle of friends reacted in a normal way that meant, of course, that
+they were automatically the good guys. And so I just assumed there was
+something wrong with the people who didn’t understand me. What other
+explanation could there possibly be? I was the same all the time! Certain people
+just had something wrong with them. So I simply began to avoid these weird,
+difficult people because I didn’t understand them. Call it the naïveté of youth if
+you will, but it did give rise to some amusing consequences. In later years,
+however, all of this changed.
+
+
+====================================================================================================
+CHUNK #13
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 8, 'chapter': 'Introduction'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+difficult people because I didn’t understand them. Call it the naïveté of youth if
+you will, but it did give rise to some amusing consequences. In later years,
+however, all of this changed.
+Life went on with work, family, and career, and I continued to pigeonhole
+people into two groups—good and sensible people and all the rest, the people
+who didn’t seem to understand anything at all.  
+8
+
+
+====================================================================================================
+CHUNK #14
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 9, 'chapter': 'Introduction'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+When I was twenty-five years old, I met with a man who was self-employed.
+Now in his sixties, Sture had founded his own business and built it up for many
+years. I was given the task of interviewing him just before a new project was to be
+implemented. We started talking about how things were functioning in his
+organization. One of the very first comments Sture made was that he was
+surrounded by idiots. I remember laughing at the time because I thought it was a
+joke. But he truly meant what he said. His face turned crimson as he explained to
+me that the people working in Department A were complete idiots, every single
+one of them. In Department B you found only fools who understood nothing at
+all. And he hadn’t even come to Department C yet! They were the worst of all!
+They were so weird that Sture couldn’t fathom how they even made it to work in
+the mornings.
+The more I listened to him, the more I realized that there was something very
+
+
+====================================================================================================
+CHUNK #15
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 9, 'chapter': 'Introduction'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+They were so weird that Sture couldn’t fathom how they even made it to work in
+the mornings.
+The more I listened to him, the more I realized that there was something very
+odd about this story. I asked him if he really believed that he was surrounded by
+idiots. He glared at me and explained that very few of his employees were worth
+having.
+Sture had no issue letting his employees know how he felt. He didn’t hesitate
+in the least to call anyone an idiot in front of the whole company. This meant that
+his employees learned to avoid him. No one dared to have one-to-one meetings
+with him; he never got to hear bad news because he would often shoot the
+messenger. At one of the offices, a warning light had even been mounted at the
+entrance to the building. Discreetly placed above the reception desk, the light
+went red when he was there and turned green when he was away.
+Everyone knew about this. Not only staff but even clients would automatically
+
+
+====================================================================================================
+CHUNK #16
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 9, 'chapter': 'Introduction'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+went red when he was there and turned green when he was away.
+Everyone knew about this. Not only staff but even clients would automatically
+cast a nervous glance at the light to find out what awaited them when they
+stepped over the threshold. If the light was red, some people would simply turn
+back at the door, deciding to come back at a more opportune time.
+As we all know, when you’re young you are full of great ideas. So I asked the
+only question I could think of: “Who hired all these idiots?” I knew, of course,
+that he had hired most of them. What was worse was that Sture understood
+exactly what I had implied. What I implicitly asked was: Who is actually the idiot
+here?
+Sture threw me out. Later on, I was told that what he really wanted to do was
+fetch a shotgun and shoot me.
+This incident got me thinking. Here was a man who would soon retire. He was
+obviously a proficient entrepreneur, highly respected for his sound knowledge of
+
+
+====================================================================================================
+CHUNK #17
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 9, 'chapter': 'Introduction'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+fetch a shotgun and shoot me.
+This incident got me thinking. Here was a man who would soon retire. He was
+obviously a proficient entrepreneur, highly respected for his sound knowledge of
+his particular line of business. But he couldn’t handle people. He didn’t  
+9
+
+
+====================================================================================================
+CHUNK #18
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 10, 'chapter': 'Introduction'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+understand the most critical, complicated resource in an organization—the
+employees. And anyone he couldn’t understand was simply an idiot.
+Since I was from outside the company, I could easily see how wrong his
+thinking was. Sture didn’t grasp that he always compared people to himself. His
+definition of idiocy was simply anyone who didn’t think or act like him. He used
+expressions that I also used to use about certain types of people: “arrogant
+windbags,” “red-tape jackasses,” “rude bastards,” and “tedious blockheads.”
+Although I never called people idiots, at least not so they could hear me, I had
+obvious problems with certain types of people.
+It was an utterly appalling thought to have to go through life constantly
+thinking that I was surrounded by people who were impossible to work with. It
+would make my own potential in life so unbelievably limited.
+I tried to see myself in the mirror. The decision was easy to make. I didn’t
+
+
+====================================================================================================
+CHUNK #19
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 10, 'chapter': 'Introduction'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+would make my own potential in life so unbelievably limited.
+I tried to see myself in the mirror. The decision was easy to make. I didn’t
+want to be like Sture. After a particularly toxic meeting with him and some of his
+unfortunate colleagues, I sat in the car with a lump in my stomach. The meeting
+had been a total disaster. Everyone was furious. There and then I decided to learn
+what is probably the most important knowledge of all—how people function. I
+would be encountering people for the rest of my life, no matter what my
+profession was, and it was easy to see that I would benefit by being able to
+understand them.
+I immediately began to study how to understand the people who initially seem
+so difficult. Why are some people silent, why do others never stop talking, why
+do some people always tell the truth while others never do? Why do some of my
+colleagues always arrive on time, while others rarely manage to? And even why
+
+
+====================================================================================================
+CHUNK #20
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 10, 'chapter': 'Introduction'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+do some people always tell the truth while others never do? Why do some of my
+colleagues always arrive on time, while others rarely manage to? And even why
+did I like some people more than others? The insights I gained were fascinating,
+and I’ve never been the same since I began this journey. The knowledge I
+acquired has changed me as a person, as a friend, as a colleague, as a son, as a
+husband, and as the father of my children.
+This book is about what is perhaps the world’s most widely used method to
+describe the differences in human communication. This method is called the
+DISA—an acronym that stands for Dominance, Inducement, Submission, and
+Analytic ability—system. These four terms are the primary behavior types, which
+describe how people sees themselves in relationship to their environment. Each of
+these behavior types is associated with a color—Red, Yellow, Green, and Blue.
+This system is also commonly called the DISC system, where the final letter of
+
+
+====================================================================================================
+CHUNK #21
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 10, 'chapter': 'Introduction'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+these behavior types is associated with a color—Red, Yellow, Green, and Blue.
+This system is also commonly called the DISC system, where the final letter of
+the acronym stands for Compliance instead of Analytic ability. I have used
+variations of this tool for over twenty years with excellent results.  
+10
+
+
+====================================================================================================
+CHUNK #22
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 11, 'chapter': 'Introduction'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+But how do you become really, truly proficient at handling different types of
+people? There are, of course, various methods. The most common method is to
+research the matter and learn the basics. But learning the theoretical part doesn’t
+make you a world-class communicator. It’s only when you begin using this
+knowledge that you can develop real and functioning competence in the field. Just
+like learning to ride a bike—you have get on the bike first. Only then do you
+realize what you need to do.
+Since I began studying how people function and painstakingly strove to
+understand the differences in the way we communicate, I’ve never been the same.
+I’m not as categorical anymore, judging people just because they are not like me.
+For many years now, my patience with people who are the complete opposite of
+me has been far greater. I wouldn’t go so far as to say that I never get involved in
+conflicts, just as I wouldn’t try to convince you that I never lie, but both these
+
+
+====================================================================================================
+CHUNK #23
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 11, 'chapter': 'Introduction'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+me has been far greater. I wouldn’t go so far as to say that I never get involved in
+conflicts, just as I wouldn’t try to convince you that I never lie, but both these
+things happen very seldom now.
+I have one thing to thank Sture for—he awakened my interest in the subject.
+Without him, this book would probably never have been written.
+What can you do to increase your knowledge about how people relate and
+communicate? A good start may be to keep reading this book—the whole book,
+not just the first three chapters. With a little luck, in a few minutes you can begin
+the same journey I began twenty years ago. I promise you will not regret it.
+One thing to note: To simplify reading this book, I have chosen to use “him”
+and “he” consistently when I refer to examples not associated with any specific
+person. I know that you have enough imagination to insert a “her” or “she” in
+your thoughts where this may be appropriate  
+11
+
+
+====================================================================================================
+CHUNK #24
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 12, 'chapter': '**1** Communication Happens on the Listener’s Terms'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+Does that sound strange? Let me explain. Everything you say to a person is
+filtered through his frames of reference, biases, and preconceived ideas. What
+remains is ultimately the message that he understands. For many different
+reasons, he can interpret what you want to convey in a totally different way than
+you intended. What is actually understood will, naturally, vary depending on who
+you are speaking to, but it is very rare that the entire message gets through exactly
+as you conceived it in your mind.
+It may feel depressing knowing that you have so little control over what your
+listener understands. No matter how much sense you would like to knock into the
+other person’s head, there’s not that much you can do about it. This is one of the
+many challenges of communication. You simply can’t change how the listener
+functions. However, most people are aware of and sensitive to how they want to
+be treated. By adjusting yourself to how other people want to be treated, you
+
+
+====================================================================================================
+CHUNK #25
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 12, 'chapter': '**1** Communication Happens on the Listener’s Terms'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+functions. However, most people are aware of and sensitive to how they want to
+be treated. By adjusting yourself to how other people want to be treated, you
+become more effective in your communication.  
+12
+
+
+====================================================================================================
+CHUNK #26
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 13, 'chapter': '**1** Communication Happens on the Listener’s Terms', 'heading': 'Why Is This So Important?'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+You help other people understand you by creating a secure arena for
+communication—on their terms. Then the listener can use his energy to
+understand rather than to consciously or unconsciously react to your manner of
+communicating.
+All of us need to develop our flexibility and so be able to vary our style of
+communication, adapting it when we speak to people who are different from us.
+Here we find another truth: No matter what method you choose to communicate
+with, as an individual, you will always be in the minority. No matter what kind of
+behavior you have, the majority of people around you will function differently
+from you. You can’t just base your method of communication on your own
+preferences. Flexibility and the ability to interpret other people’s needs is what
+characterizes a good communicator.
+Knowing and understanding another person’s style of behavior and method of
+communication will result in more educated guesses about how a person may
+
+
+====================================================================================================
+CHUNK #27
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 13, 'chapter': '**1** Communication Happens on the Listener’s Terms', 'heading': 'Why Is This So Important?'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+characterizes a good communicator.
+Knowing and understanding another person’s style of behavior and method of
+communication will result in more educated guesses about how a person may
+possibly react in various situations. This understanding will also dramatically
+increase your ability to get through to the person in question.  
+13
+
+
+====================================================================================================
+CHUNK #28
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 14, 'chapter': '**1** Communication Happens on the Listener’s Terms', 'heading': 'No System Is Perfect'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+Let me be clear about one important point: This book doesn’t claim to be totally
+comprehensive with respect to how we, as people, communicate with each other.
+No book can do that, because the number of signals we constantly transmit to
+those around us wouldn’t fit into any book. Even if we could include body
+language, the differences between male and female dialogue, cultural differences,
+and all the other ways to define variations in communication, we wouldn’t be able
+to write everything down. We could add psychological aspects, graphology, age,
+and astrology and still not get a 100 percent complete picture.
+According to the _American Journal of Business Education_ (July/August
+2013), more than 50 million assessments have been made using the DISA tool.
+And yet even with all this information communication remains a fascinating and
+puzzling topic. People are not Excel spreadsheets. We can’t calculate everything.
+
+
+====================================================================================================
+CHUNK #29
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 14, 'chapter': '**1** Communication Happens on the Listener’s Terms', 'heading': 'No System Is Perfect'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+And yet even with all this information communication remains a fascinating and
+puzzling topic. People are not Excel spreadsheets. We can’t calculate everything.
+We’re way too intricate to be described in full. Even the youngest child is far
+more intricate than anything that could be conveyed in a book. However, we can
+avoid the most blatant blunders by understanding the basics of human
+communication.  
+14
+
+
+====================================================================================================
+CHUNK #30
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 15, 'chapter': '**1** Communication Happens on the Listener’s Terms', 'heading': 'It’s Been Going On for a While'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+“We see what we do, but we do not see why we do what we do. Thus, we assess
+and appraise each other through what we see that we do.”
+These words come from the psychoanalyst Carl Jung. Different behavior
+patterns are what creates dynamism in our lives. When I refer to behavior
+patterns, I don’t just mean how a person acts in a single instance (his actions) but
+rather the whole set of attitudes, beliefs, and approaches that govern how a person
+acts. We can recognize ourselves in certain behavior patterns, but other forms of
+behavior we neither recognize nor understand. Besides, each of us acts differently
+in different situations, which can be a source of either joy or irritation for those
+around us.
+Though individual actions can, of course, be right or wrong, there is really no
+pattern of behavior that is right or wrong. There is no such thing as proper
+behavior or incorrect behavior. You are who you are, and there’s no point in
+
+
+====================================================================================================
+CHUNK #31
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 15, 'chapter': '**1** Communication Happens on the Listener’s Terms', 'heading': 'It’s Been Going On for a While'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+pattern of behavior that is right or wrong. There is no such thing as proper
+behavior or incorrect behavior. You are who you are, and there’s no point in
+wondering why. You’re fine no matter how you’re wired. No matter how you
+choose to behave, no matter how you are perceived, you are fine. Within
+reasonable limits, of course.
+In a perfect world, it would be easy just to say, “I’m a particular kind of
+person and it’s okay because I read it in a book. That’s just how I am and this is
+how I act.” Sure, wouldn’t it be great not to have to mishandle your own
+behavior? To always be able to act and behave precisely as you feel at the time?
+You can do that. You can behave exactly as you wish. All you have to do is find
+the right situation in which to do so.
+There are two situations in which you can just be you:
+The first situation is when you’re alone in a room. Then it doesn’t matter how
+you speak or what you do. It doesn’t hurt anyone if you scream and swear or if
+
+
+====================================================================================================
+CHUNK #32
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 15, 'chapter': '**1** Communication Happens on the Listener’s Terms', 'heading': 'It’s Been Going On for a While'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+The first situation is when you’re alone in a room. Then it doesn’t matter how
+you speak or what you do. It doesn’t hurt anyone if you scream and swear or if
+you just want to sit silently and ponder the great mysteries of life or wonder why
+fashion models always look so mad. In your solitude, you can behave exactly the
+way you feel. Simple, isn’t it?
+The second situation where you can completely be yourself is when all the
+other people in the room are exactly like you. What did our mothers teach us?
+Treat others as you want to be treated. Excellent advice and very well intentioned.
+And it works, too—as long as everyone is just like you. All you need to do is
+make a list of all the people you know who believe, think, and act exactly like you
+in all situations. Now just give them a call and start hanging out.  
+15
+
+
+====================================================================================================
+CHUNK #33
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 16, 'chapter': '**1** Communication Happens on the Listener’s Terms', 'heading': 'It’s Been Going On for a While'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+In any other situation, it might be a good idea to understand how you are
+perceived and to learn how other people function. I don’t think I will make
+headlines by saying that most people you meet aren’t like you.
+Words can have incredible power, but the words we choose and how we use
+them vary. As you have seen from the title of this book, there are different
+interpretations of—yes, you got it—words. And when you use the wrong word,
+well, maybe then you’re an idiot.  
+**Surrounded by Idiots—or Not?**
+What does this actually mean? As I was writing, the following analogy hit me:
+Behavior patterns are like a toolbox. All types are needed. Depending on the
+occasion, a tool can sometimes be right and sometimes be wrong. A thirty-pound
+sledgehammer is great for tearing down walls, but it’s hardly the thing if you want
+to hang a picture in the foyer.
+Some people are opposed to the idea of sorting people into different behavior
+
+
+====================================================================================================
+CHUNK #34
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 16, 'chapter': '**1** Communication Happens on the Listener’s Terms', 'heading': 'It’s Been Going On for a While'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+sledgehammer is great for tearing down walls, but it’s hardly the thing if you want
+to hang a picture in the foyer.
+Some people are opposed to the idea of sorting people into different behavior
+types. Maybe you believe that you shouldn’t categorize people in that way, that
+it’s wrong to pigeonhole people. However, everyone does it, perhaps in another
+way than I do in this book, but we all register our differences nonetheless. The
+fact remains that we are different, and in my opinion, pointing that out can be
+something positive if you do it in the right way. Improperly used, every tool can
+be harmful. It’s more about the person using it than the tool itself. This book is
+your introduction to human behavior and dialogue. The rest is up to you.
+Parts of what you are going to read I have gathered from TTI Success Insights.
+I would like to take this opportunity to thank Sune Gellberg and Edouard Levit
+for so generously sharing both their experience and their training materials.  
+16
+
+
+====================================================================================================
+CHUNK #35
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 17, 'chapter': '**1** Communication Happens on the Listener’s Terms', 'heading': 'No Matter How Strange It Might Seem, in Theory, Every Kind of Behavior Is Normal'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+**Normal Behavior …**
+_… is relatively predictable._
+Every person reacts in a habitual manner in similar situations. But it’s
+impossible to predict every possible reaction before it happens.
+_… is part of a pattern._
+We often react in consistent patterns. Therefore, we should respect one
+another’s patterns. And understand our own.
+_… is changeable._
+We should learn to listen, act, speak openly, and reflect in order to do what is
+relevant right now. Everyone can adapt.
+_… can be observed._
+We should be able to observe and consider most forms of behavior without
+being amateur psychologists. Everyone can take note of the people around
+them.
+_… is understandable._
+We should be able to understand why people feel and do what they do—right
+now. Everyone can think about why.
+_… is unique._
+Despite the conditions that we have in common, each person’s behavior is
+unique to him. Succeed in your own conditions.
+_… is excusable._
+Dismiss personal jealousy and complaints. Learn to have tolerance and
+
+
+====================================================================================================
+CHUNK #36
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 17, 'chapter': '**1** Communication Happens on the Listener’s Terms', 'heading': 'No Matter How Strange It Might Seem, in Theory, Every Kind of Behavior Is Normal'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+unique to him. Succeed in your own conditions.
+_… is excusable._
+Dismiss personal jealousy and complaints. Learn to have tolerance and
+patience, both with yourself and with others.  
+17
+
+
+====================================================================================================
+CHUNK #37
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 18, 'chapter': '**2** Why Are We the Way We Are?'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+Where does our behavior come from? Why are people so different? Search me!
+Very briefly, it’s a combination of heredity and environment. Even before we’re
+born, the foundations for the behavior patterns we will exhibit in adulthood have
+been laid. The temperament and character traits we have inherited affect our
+behavior, a process already begun at the genetic stage. Exactly how this works is
+still a bone of contention among scientists, but all are in agreement that it does
+come into play. Not only do we inherit traits from our own parents but also from
+their parents—also in varying degrees from other relatives. At some point or
+other, we have all heard that we speak like or look like an uncle or an aunt. As a
+child, I resembled my uncle Bertil—something to do with my red hair. To explain
+how this is genetically possible would take a tremendous amount of time. For the
+moment, let us just establish that this inheritance lays the foundation for our
+behavioral development.
+
+
+====================================================================================================
+CHUNK #38
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 18, 'chapter': '**2** Why Are We the Way We Are?'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+how this is genetically possible would take a tremendous amount of time. For the
+moment, let us just establish that this inheritance lays the foundation for our
+behavioral development.
+What happens once we are born? In most cases, children are born impulsive,
+adventurous, without any barriers whatsoever. A child does exactly what he
+wants. The child says, “No, I don’t want to!” or, “Sure I can!” He is immersed in
+the thought that he can manage just about anything at all. This kind of
+spontaneous and sometimes uncontrolled behavior is, of course, not always what
+his parents wished for. Then, hey presto, what was once an original pattern of
+behavior begins to transform, in the best/worst-case scenario, into a copy of
+someone else.  
+18
+
+
+====================================================================================================
+CHUNK #39
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 19, 'chapter': '**2** Why Are We the Way We Are?', 'heading': 'How Are Children Influenced?'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+Children learn and develop in multiple ways, but the most common is by
+imitation. A child mimics what he sees around him, the parent of the same sex
+often becoming the model for imitation. (This is clearly not an exhaustive study
+on how the process works, as this book is not about how we influence our
+children.)  
+19
+
+
+====================================================================================================
+CHUNK #40
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 20, 'chapter': '**2** Why Are We the Way We Are?', 'heading': 'Core Values'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+My core values are found deep within me, values so deeply embedded in my
+character that it’s almost impossible to change them. These are the things I
+learned from my parents as a child or that I learned in school when I was very
+young. In my case it was different variations of “study and do well in school” or
+“fighting is wrong.” The latter, for example, means that I’ve never laid hands on
+another person. I haven’t fought since third grade, and I seem to recall that I lost
+then. (She was really strong.)
+Another important core value is that all people are of equal worth. Because
+my parents demonstrated this to me during my childhood, I know it is deeply
+wrong to judge a person based on his or her origin, sex, or color. All of us carry
+many such core values. We know instinctively what is right and what is not. No
+one can take these core values away from me.  
+20
+
+
+====================================================================================================
+CHUNK #41
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 21, 'chapter': '**2** Why Are We the Way We Are?', 'heading': 'Attitudes and Approaches'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+The next layer is my attitudes, which are not exactly the same thing as core
+values. Attitudes are things I have formed opinions about based on my own
+experiences or on conclusions I have drawn from encounters in the latter part of
+my schooling, high school, college, or my first job. Even experiences later on in
+life can form attitudes.
+A relative once told me that she didn’t trust salespeople. She’s definitely not
+alone in having strong feelings about salespeople, but in her case it resulted in
+comical practices. She couldn’t buy anything without returning it. A sweater, a
+sofa, a car—the buying process was endless. Every fact had to be examined and
+explored. No matter how much research she did beforehand, she always wanted to
+return her purchases afterwards.  
+21
+
+
+====================================================================================================
+CHUNK #42
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 22, 'chapter': '**2** Why Are We the Way We Are?', 'heading': 'Attitudes and Approaches'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+Once I had observed the pattern, I asked her why she did this, and she
+explained the reasoning behind her attitude: Eighty-five percent of all salespeople
+were swindlers. Explaining that I too was a salesperson had little effect. To this
+day, I don’t know if I belong to the 85 percent or if I can count myself among the
+fortunate 15 percent. The important thing is that an attitude can change. My
+relative had probably been badly fooled a number of times and therefore learned
+to distrust salespeople. However, if she had a number of positive experiences her
+opinion could change.  
+**The Results**
+Both my core values and my attitudes affect how I choose my behavior.
+Together they form my core behavior, the real person I want to be. My core  
+22
+
+
+====================================================================================================
+CHUNK #43
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 23, 'chapter': '**2** Why Are We the Way We Are?', 'heading': 'Attitudes and Approaches'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+behavior is how I act in complete freedom, without the influence of any external
+factors at all.
+You probably already see the issue here: When are we ever completely free
+from external influences? When I discuss this question with groups of people in
+different contexts, we all usually agree: only when we’re sleeping.
+But people are different. Some don’t care. They are always themselves
+because they’ve never reflected upon how they are perceived. The stronger your
+self-understanding is, the greater your probability of adapting to the people
+around you.  
+23
+
+
+====================================================================================================
+CHUNK #44
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 24, 'chapter': '**2** Why Are We the Way We Are?', 'heading': 'How Do Others Really Perceive Me?'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+The people around you most often see your moderated behavior. You interpret a
+specific situation and make a choice about how to act based on that evaluation—
+this is the behavior that others around you experience. It’s all about the mask you
+wear to fit into a given situation. We all have several different masks. Having one
+at work and one at home isn’t that unusual. And another one for visiting the inlaws, perhaps. This book is not an advanced course in psychology—but I am
+content to establish that we interpret situations differently and act accordingly.
+Consciously or subconsciously, surrounding factors cause me to choose a
+particular course of action.
+And this is how we act. Look at this formula:  
+BEHAVIOR **=** f (P **×** Sf)  
+_Behavior_ is a function of _Personality_ and _Surrounding factors_ .
+_Behavior_ is that which we can observe.
+_Personality_ is what we try to figure out.
+_Surrounding factors_ are things that we have an influence on.
+
+
+====================================================================================================
+CHUNK #45
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 24, 'chapter': '**2** Why Are We the Way We Are?', 'heading': 'How Do Others Really Perceive Me?'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+_Behavior_ is that which we can observe.
+_Personality_ is what we try to figure out.
+_Surrounding factors_ are things that we have an influence on.  
+**Conclusion:** We continually affect one another in some form or other. The
+trick is to try to figure out what’s there, under the surface. And this book is all
+about behavior.  
+24
+
+
+====================================================================================================
+CHUNK #46
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 25, 'chapter': '**3** An Introduction to the System'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+At the end of this book you will find a description of the background to how the
+DISA system emerged, but since you probably want to dive into its most
+interesting elements—how everything works in practice—you can just read on.
+Otherwise, you can always go directly to page 228.  
+25
+
+
+====================================================================================================
+CHUNK #47
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 26, 'chapter': '**3** An Introduction to the System'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+As you can see, there are four main categories of behavior types, each of
+which is associated with a color. This book is about how you can recognize them.
+Quite soon, as you start reading about the different colors, various faces will
+come to mind. Sometimes, maybe, even your own.
+About 80 percent of all people have a combination of two colors that dominate
+their behavior. Approximately 5 percent have only one color that dominates
+behavior. The others are dominated by three colors. Throughout the book I focus
+on the single colors individually because they are the fundamental components of
+a person’s behavior. It’s like a recipe—we need to understand all the ingredients
+before we bake the cake. Entirely Green behavior, or Green in combination with
+one other color, is the most common. The least common is entirely Red behavior,
+or Red behavior in combination with one other color.  
+26
+
+
+====================================================================================================
+CHUNK #48
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 27, 'chapter': '**3** An Introduction to the System'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+Many people you meet possess qualities that you sometimes wish you had—
+you may even feel jealous of these people. They easily master things that you
+struggle with. Maybe you’d like to be more decisive like Reds, or maybe you
+wish it were easier for you to interact with strangers, like Yellows. Possibly, you
+wish that you didn’t stress so much, that you could just take it easy like Greens
+do, and perhaps you wish that you could keep your schedule in better order,
+something that’s natural for Blues.
+Naturally, it works the other way as well. You are going to read things that
+will help you realize that you too boss others around a bit too much, just like Reds  
+27
+
+
+====================================================================================================
+CHUNK #49
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 28, 'chapter': '**3** An Introduction to the System'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+tend to do. Or that you talk way too much, something that Yellows do. It might be
+that you take things way too easy, not getting involved in anything, the Greens’
+weakness. Or you’re always suspicious of everything, seeing risks everywhere,
+just like Blues. Here you can learn to see your own pitfalls and how you can take
+appropriate measures to get around them.
+No matter what you learn about yourself and others, take notes, underline
+things, and engage with the material.  
+28
+
+
+====================================================================================================
+CHUNK #50
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 29, 'chapter': '**4** Red Behavior'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+How to Recognize a Real Alpha and Avoid Getting in His Way  
+What should we do? We’ll do it my way. Now!
+This is the behavior type that Hippocrates in his theory of human temperament
+called choleric. Nowadays you might call a Red person bold, ambitious, driven,
+but also potentially hot-tempered, rash, or dominant. You quickly notice a Red
+person because he doesn’t make the slightest effort to conceal who he is.
+A Red person is a dynamic and driven individual. He has goals in life that
+others may find difficult to even imagine. Since his goals are so highly ambitious,
+achieving them seems to be impossible. Reds strive forward, always pushing
+themselves harder, and they almost never give up. Their belief in their own ability
+is unsurpassed. They carry inside them the firm belief that they can achieve
+anything—if they just work hard enough.
+People who have lots of Red in their behavior are task-oriented extroverts and
+
+
+====================================================================================================
+CHUNK #51
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 29, 'chapter': '**4** Red Behavior'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+is unsurpassed. They carry inside them the firm belief that they can achieve
+anything—if they just work hard enough.
+People who have lots of Red in their behavior are task-oriented extroverts and
+they enjoy challenges. They make quick decisions and are often comfortable
+taking the lead and taking risks. A common perception is that Reds are natural
+leaders. These are people who willingly take command and go to the fore. They
+are so driven that they will get through despite any obstacle in their path. Their
+disposition is ideal in competitive situations. It’s not unusual for a CEO or a
+president to have lots of Red in his behavior.
+This form of competition is present in everything Reds do. To say that they
+constantly want to challenge and compete is probably not entirely true, but if a
+chance of winning something arises—why not? The exact nature of the
+competition is unimportant; it’s the competitive element that keeps Reds running
+on all cylinders.
+
+
+====================================================================================================
+CHUNK #52
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 29, 'chapter': '**4** Red Behavior'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+chance of winning something arises—why not? The exact nature of the
+competition is unimportant; it’s the competitive element that keeps Reds running
+on all cylinders.
+Pelle, one of my former neighbors, liked competing so much that he
+developed entirely new interests just to compete. I like working in the garden, and
+so I spend quite some time doing so. Pelle didn’t like gardening, but when he had  
+29
+
+
+====================================================================================================
+CHUNK #53
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 30, 'chapter': '**4** Red Behavior'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+heard people commenting on my beautiful garden often enough he finally had
+enough. He started one project after another, always with a single but very clear
+objective: to outdo me. He confounded his wife by digging new flower beds,
+planting a rainbow of unbelievably fabulous plants, and cultivating the lawn to
+golf-course standard. The only thing I needed to do to keep him going was to
+merely suggest that I would purchase more plants. Then he would go to the local
+garden center quicker than you could say “bad loser.”
+You can also recognize Reds by other behavior patterns. Who talks the
+loudest? Reds. Who goes all out when explaining something? Reds. Who’s
+always the first to answer a question? Reds again. Who, during an otherwise
+pleasant dinner, makes categorical comments on just about any topic? And who
+will judge an entire country based on something he saw on television? Reds!
+Something is always happening in the lives of Red people. They can’t sit still.
+
+
+====================================================================================================
+CHUNK #54
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 30, 'chapter': '**4** Red Behavior'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+will judge an entire country based on something he saw on television? Reds!
+Something is always happening in the lives of Red people. They can’t sit still.
+Idle time is wasted time. Life is short; better get going immediately. Do you
+recognize the type? Always on the go. So step aside; let’s get cracking!  
+30
+
+
+====================================================================================================
+CHUNK #55
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 31, 'chapter': '**4** Red Behavior', 'heading': '“Tell Me What You Really Think—Yes, for Real.”'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+Reds have no problem being blunt. When asked a specific question, they often
+say exactly what they think, without any frills. They see no need to wrap things
+up in a bunch of empty phrases. When a thought pops into their heads, everyone
+knows it immediately. They have opinions on most things, and they trot their
+thoughts out quickly and efficiently.
+A common remark is that Reds are very honest, because they dare to express
+their personal truths to people. They don’t really understand what the fuss is all
+about. They’ve only said things as they are.
+If you need someone with extra energy, you may want to invite a Red into the
+team or project group. They fight tirelessly along when others have already given
+up—if they are determined to succeed, that is. A task that has become humdrum
+or meaningless could be totally ignored by a Red.
+I call this phenomenon slog or split. If the task is important enough, a Red will
+
+
+====================================================================================================
+CHUNK #56
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 31, 'chapter': '**4** Red Behavior', 'heading': '“Tell Me What You Really Think—Yes, for Real.”'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+or meaningless could be totally ignored by a Red.
+I call this phenomenon slog or split. If the task is important enough, a Red will
+go through fire and water to complete it. If he feels it has no purpose, into the
+trash it goes.  
+31
+
+
+====================================================================================================
+CHUNK #57
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 32, 'chapter': '**4** Red Behavior', 'heading': 'Can I Win Something? In That Case, I’m In.'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+So Reds like competing. They appreciate the slight antagonism that is part of
+being competitive and the glorious moment of winning. They even enjoy winning
+competitions that probably don’t even exist, except perhaps in their own mind. It
+can be passing a slow walker on the street, finding the absolutely best parking
+spot, or dominating the family game of Monopoly—despite the fact that the
+purpose of the game is to entertain the kids and none of the other adults are
+actually competing. For a Red, this is all natural because he sees himself as a
+winner.
+Let me give you an example. I once worked for a company where the CEO
+was Red. He was energetic and efficient—and consequently incredibly dynamic.
+No meetings were as short and sweet as those run by this CEO. But his weak spot
+was the competitive element. As a young man he had played soccer, and every
+spring at this particular workplace they held a soccer tournament. It was very
+popular, even before he joined the company.
+
+
+====================================================================================================
+CHUNK #58
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 32, 'chapter': '**4** Red Behavior', 'heading': 'Can I Win Something? In That Case, I’m In.'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+was the competitive element. As a young man he had played soccer, and every
+spring at this particular workplace they held a soccer tournament. It was very
+popular, even before he joined the company.
+Naturally, he had to take part. No other CEO before him had ever done so, but
+that wasn’t the problem. The problem was that as soon as he got out on the field
+he became a different person. On fire with his competitive drive, he flattened
+anyone who stood in his way.
+This continued for a few years until someone had the guts to tell him that he
+played just a little bit too rough—the game wasn’t supposed to be that serious.
+The CEO didn’t understand. He grabbed the latest flyer for the game and pointed
+out that it was called a soccer “tournament.” Tournaments are competitions, and if
+you compete you are in it to win. Simple!
+He competed in traffic, on the soccer field, in business. No area was too
+insignificant not to become a competition. He even raced to see how quickly he
+
+
+====================================================================================================
+CHUNK #59
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 32, 'chapter': '**4** Red Behavior', 'heading': 'Can I Win Something? In That Case, I’m In.'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+you compete you are in it to win. Simple!
+He competed in traffic, on the soccer field, in business. No area was too
+insignificant not to become a competition. He even raced to see how quickly he
+could finish reading a book. What others do for relaxation he transformed into a
+competition. One hundred pages an hour was a reasonable pace.
+His wife had even banned him from playing a memory card game with his
+children, who were five and six years old. Since they had better memories than he
+did, they won most of the time, and in his frustration he intimidated them.
+Before you conclude that this guy sounds rather unsympathetic, we need to
+look at his intentions. This kind of intensive and competitive behavior often
+upsets other people because they think it is all about dominating and suppressing
+others. Nothing could be further from the truth. His intentions were almost never
+malicious. He just wanted to win.  
+32
+
+
+====================================================================================================
+CHUNK #60
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 33, 'chapter': '**4** Red Behavior', 'heading': 'Can I Win Something? In That Case, I’m In.'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+This is one of the greatest challenges for Reds. It’s not uncommon that other
+people feel irritated or intimidated by them because they’re such powerful
+personalities. Later on in this book, I will share some simple ways that you can
+deal with these individuals.  
+33
+
+
+====================================================================================================
+CHUNK #61
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 34, 'chapter': '**4** Red Behavior', 'heading': 'Time Is Money'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+“Quick” is synonymous with “good” for Reds. If you are in a meeting and
+suddenly notice that one of the other participants is devoting his time to
+something completely different, it may well be a Red who has lost interest. If you
+look closer, you will realize that his thoughts are elsewhere—on the next step in
+the process being discussed, for example. Because Reds are quick thinkers, they
+move on long before everyone else.
+Few things annoy Reds more than sluggishness. If a meeting or a discussion
+drags on, he may interrupt and ask if it’s really necessary to prolong the issue.
+“We’ve already discussed this for twenty minutes. Get it together! It’s only a few
+million in investments. How hard can it be?”
+If you think about it, they’re often right. When other people may find it
+difficult to make a decision, Reds are prepared to make quick decisions in order
+to keep things moving. With a Red on the team, nothing will be discussed ad
+
+
+====================================================================================================
+CHUNK #62
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 34, 'chapter': '**4** Red Behavior', 'heading': 'Time Is Money'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+difficult to make a decision, Reds are prepared to make quick decisions in order
+to keep things moving. With a Red on the team, nothing will be discussed ad
+infinitum. After all, it’s always better to do something rather than nothing, right?
+The advantage is obvious. We’re talking about people who never waste time
+on anything that doesn’t move forward. As soon as a task becomes unclear or is
+taking too long, a Red will ensure that the momentum is maintained and spur
+things along. Chop-chop, done in double time.
+About fifteen years ago I began working for a small consulting company with
+about a dozen employees. It was a polished organization with a great spirit of
+entrepreneurship and excellent momentum in business dealings. One of the
+reasons why they were so efficient was because the founder of the company was a
+Red. Nothing could move too quickly for Björn. No meeting took longer than was
+absolutely necessary.
+
+
+====================================================================================================
+CHUNK #63
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 34, 'chapter': '**4** Red Behavior', 'heading': 'Time Is Money'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+reasons why they were so efficient was because the founder of the company was a
+Red. Nothing could move too quickly for Björn. No meeting took longer than was
+absolutely necessary.
+In my second or third week in the new job, I was sitting in a traffic jam when
+my cell phone rang. I looked at the display and saw that it was Björn. I answered
+the way I’d been instructed to when I started at the company—with a greeting,
+my name, and the company name. Impatiently he interrupted me and spit out his
+question.
+“Were you looking for me?”
+“No,” I replied, and took a deep breath, ready to say something else. I didn’t
+get the chance.
+“Okay,” he said, and hung up.
+Eight seconds.  
+34
+
+
+====================================================================================================
+CHUNK #64
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 35, 'chapter': '**4** Red Behavior', 'heading': 'Time Is Money'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+Unpleasant? Well, at the time we didn’t really know each other. However, I
+must admit that the whole episode had me worried a little—at least on that
+occasion. Only three weeks at the company and the big chief himself calls, and
+sounding irritated!
+When we’d gotten to know each other—and I learned that Björn was Red—I
+asked him why he was so abrupt on the phone. Of course he didn’t even
+remember the call, but he said he was probably just trying to find out if I was
+looking for him. When he learned I wasn’t, there was no further need to talk.
+Wasting time on polite flowery phrases or drawn-out farewells wasn’t for him.
+But at the same time, here was a person with a capacity to work far more than
+normal. Björn managed to do more in an average working day than most people.
+He still has an exceptional ability to make the most of any free time. If he has a
+gap of five minutes in his schedule he manages to squeeze in an email, a phone
+
+
+====================================================================================================
+CHUNK #65
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 35, 'chapter': '**4** Red Behavior', 'heading': 'Time Is Money'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+He still has an exceptional ability to make the most of any free time. If he has a
+gap of five minutes in his schedule he manages to squeeze in an email, a phone
+call, and go through some meeting minutes. From the outside, this may seem like
+an unnecessary pursuit of efficiency. But a Red detests inactivity. Things must
+happen. Add to this a sense of constant urgency, and a great deal will get done.  
+35
+
+
+====================================================================================================
+CHUNK #66
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 36, 'chapter': '**4** Red Behavior', 'heading': 'The Sky’s the Limit. Or Is It?'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+For a Red, a realistic budget is a budget for cowards. If we don’t push ourselves
+to the breaking point, we haven’t tried hard enough. Reds love difficult tasks, so
+their level of ambition is usually boundless. The ability to manage difficult
+situations and challenges is the defining attribute of Red behavior.
+When a person with Red traits sets his goals, several things happen. First, he
+wants to know how well a specific task under the most favorable conditions could
+be performed. If all nineteen parameters were met and we all gave it a little extra
+effort the results would be phenomenal. This means that anything below that
+impossible level of excellence is boring, because there’s at least a remote
+possibility of that result being achieved.
+Nothing is impossible. The impossible just takes a little longer. More than
+likely it was a Red who came up with that expression.
+Naturally, it’s also about the type of project. It’s not enough just to set an
+
+
+====================================================================================================
+CHUNK #67
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 36, 'chapter': '**4** Red Behavior', 'heading': 'The Sky’s the Limit. Or Is It?'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+likely it was a Red who came up with that expression.
+Naturally, it’s also about the type of project. It’s not enough just to set an
+impossible sales budget. If a Red doesn’t like sales, he’ll ignore the budget. Since
+he prefers to make all the decisions himself, he probably won’t be fooled into
+doing something he doesn’t feel like doing. Reds set higher demands on
+themselves than any of the other colors would. And they are always prepared to
+work hard. I wouldn’t go so far as to say that no other color works as hard as
+Reds do, but I would venture to say that a Red would give anyone a run for his
+money.
+Ambition, which is intrinsic to Reds, shouldn’t be confused with a lust for
+power. Reds have no problem taking positions of power, since they are fearless.
+Expressions like “It’s lonely and windy at the top” don’t scare them. But for a
+Red power is not an end in itself. It does, however, come in handy for those who
+like to make their own decisions and avoid having to wait for others.
+
+
+====================================================================================================
+CHUNK #68
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 36, 'chapter': '**4** Red Behavior', 'heading': 'The Sky’s the Limit. Or Is It?'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+Red power is not an end in itself. It does, however, come in handy for those who
+like to make their own decisions and avoid having to wait for others.
+A Red can, in fact, be quite unassuming. It’s true that he has a strong ego, but
+status and prestige don’t have the same importance as with other colors. The
+reason is simple: A Red usually doesn’t care what others think. He’s not here for
+their sake—he’s here for his own.  
+36
+
+
+====================================================================================================
+CHUNK #69
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 37, 'chapter': '**4** Red Behavior', 'heading': 'Let Me Tell You How Things Really Are'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+A Red gives everything he’s got. When he has an opinion about something or if
+he wants the rest of us to agree with him, he pulls out all the stops.
+Once, I was in a meeting with a large number of people who didn’t know one
+another that well. It was a gathering of consultants who were meeting to discuss a
+potential collaboration. It was in the middle of a recession, and we were all
+concerned about the lack of direction. While we were waiting for the chairperson
+to arrive, we chatted a little about everything.
+At one end of the table sat Elisabeth, who had strong opinions about
+everything. In an unequivocal voice, she suddenly stated that the company was
+still expected to earn over $50 million a week, despite the recession. About fifteen
+consultants, all highly trained, reflective, and intelligent people, nodded in
+agreement. Just imagine—$50 million! Per week!
+While Elisabeth expanded on how the situation ought to be resolved in the
+
+
+====================================================================================================
+CHUNK #70
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 37, 'chapter': '**4** Red Behavior', 'heading': 'Let Me Tell You How Things Really Are'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+consultants, all highly trained, reflective, and intelligent people, nodded in
+agreement. Just imagine—$50 million! Per week!
+While Elisabeth expanded on how the situation ought to be resolved in the
+consulting world, I began thinking about the figures a little bit. Not knowing
+where these figures came from, I remained silent. It could be true; it could also be
+farfetched. I honestly didn’t know. While waiting for the meeting to begin
+officially, I started calculating how much $50 million per week would be per year.
+I didn’t have enough paper.
+After the meeting, I got the answer to my speculations. I was in a taxi on my
+way to my next meeting when the driver turned on the radio. In the news, it was
+announced that the company in question was expected to earn between $2 and 2.5
+million per week. I realized that Elisabeth had gotten the information from the
+news. I also understood that $2 or $2.5 million per week was far more realistic
+than the $50 million that she had referred to.
+
+
+====================================================================================================
+CHUNK #71
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 37, 'chapter': '**4** Red Behavior', 'heading': 'Let Me Tell You How Things Really Are'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+news. I also understood that $2 or $2.5 million per week was far more realistic
+than the $50 million that she had referred to.
+But wait a minute. A little reconciliation with reality is needed here. Why
+didn’t anyone react? No one in the room lifted a finger or called her information
+into question. Why?
+Because she sounded so convincing! Her facial expression was definite; her
+countenance was determined, and her voice did not quiver in the least when she
+presented her figures.
+That’s the way Reds function. When they believe something, they let people
+know that this is the only truth that exists. Now maybe there are some sticklers
+for detail who might claim that this is deceptive, since we now know that the
+company earned $2.5 million a week and not roughly $50 million. But I’m
+convinced that Elisabeth really believed what she said. She had things turned  
+37
+
+
+====================================================================================================
+CHUNK #72
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 38, 'chapter': '**4** Red Behavior', 'heading': 'Let Me Tell You How Things Really Are'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+around, no doubt about that, and she was certainly not interested in details. But
+my point is that by sounding utterly confident when she declared that the
+company was earning six months’ revenue—per week—we all fell for it.
+Or, in the words of a good friend of mine: There are two ways to do this—my
+way and the wrong way.  
+38
+
+
+====================================================================================================
+CHUNK #73
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 39, 'chapter': '**4** Red Behavior', 'heading': 'Only Dead Fish Go with the Flow'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+Reds are both groundbreaking and strong willed. Why not also add “results
+oriented” and “decisive” when we’re at it? For Reds, it’s not sufficient to do
+things like everyone else does. And just because it’s tough doesn’t mean we
+should avoid doing it.
+Reds aren’t afraid to make decisions. When everyone else hesitates, thinking
+and weighing the risks, a Red makes the controversial decision. A Red’s
+determination is usually unyielding. Once he’s decided, then it’s full steam ahead.
+Their fearlessness dares them to tackle things that make others hesitate. This is
+usually evident when things get rough, and they are undaunted by tough choices
+or tricky decisions. It is no coincidence that many entrepreneurs are Reds. Setting
+up new businesses—especially if they are based on completely new business
+concepts—is, in our current economy, not for the faint of heart. It’s not a bad
+thing to have a force of nature in the driver’s seat. It takes a strong mind to move
+
+
+====================================================================================================
+CHUNK #74
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 39, 'chapter': '**4** Red Behavior', 'heading': 'Only Dead Fish Go with the Flow'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+concepts—is, in our current economy, not for the faint of heart. It’s not a bad
+thing to have a force of nature in the driver’s seat. It takes a strong mind to move
+things forward, someone who understands that risks that are part of everyday life
+and that everything boils down to hard work from morning to night—for many
+years. Reds understand this from the beginning and are in no way intimidated by
+it.
+Do you need someone to pursue a problem in your apartment complex?
+Maybe you’ve gotten on the wrong side of your landlord, who says that there is
+absolutely nothing wrong with your heat. Or maybe the contractor who repaired
+the roof and installed the new elevators was negligent and won’t take
+responsibility for it. Any time you try to get things straightened out, you’ve been
+brought to standstill by a barricade of unanswered calls and info@ addresses.
+You’re just about to give up when you suddenly remember the guy on the second
+
+
+====================================================================================================
+CHUNK #75
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 39, 'chapter': '**4** Red Behavior', 'heading': 'Only Dead Fish Go with the Flow'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+brought to standstill by a barricade of unanswered calls and info@ addresses.
+You’re just about to give up when you suddenly remember the guy on the second
+floor living above you. Isn’t he kind of Red? Wasn’t he the one who dared to go
+against the super at the last meeting and get the trash policy changed? Yes, that’s
+the guy!
+Throw the guy from the second floor into the process, and then you’ll see
+things begin to happen. You might have to motivate him a little, explaining that
+he has a lot to gain from it himself. But he will make things happen—he’ll subdue
+the landlord and get the contractor in line. And he won’t lose any sleep just
+because someone got angry with him in the process.
+Generally speaking, a Red’s strengths are very powerful. They are extremely
+clear in their communication, and you don’t have to look far to identify Red
+behavior. Of course, over the years many Reds learn to restrain themselves  
+39
+
+
+====================================================================================================
+CHUNK #76
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 40, 'chapter': '**4** Red Behavior', 'heading': 'Only Dead Fish Go with the Flow'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+somewhat, but it doesn’t usually last very long. They’ll be back to full throttle—
+and all that that entails.  
+40
+
+
+====================================================================================================
+CHUNK #77
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 41, 'chapter': '**4** Red Behavior', 'heading': 'It Wasn’t Better Before. Onward and Upward.'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+A Red doesn’t try to stick to his original point of view when he realizes that a
+better solution exists. He is a quick thinker and has no problem shifting his
+ground at short notice. One of the advantages of this is that he doesn’t reject other
+people’s ideas if he has none himself. It’s worth looking into anything that can
+propel development forward.
+Sometimes decisions can come a little bit too quickly, but the will to
+constantly change creates a strong dynamism and flexibility. If anything has been
+static for a long time—maybe a few weeks—he will turn things up a notch. Some
+people may find this stressful, but when you ask a Red why he changed
+something that was actually working the answer could well be “Because I could.”
+Naturally, there are also downsides. Reds get bored with the status quo
+quickly and so they change it—the people around them have no idea what will
+happen next. When Greens and Blues have just gotten used to the new
+
+
+====================================================================================================
+CHUNK #78
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 41, 'chapter': '**4** Red Behavior', 'heading': 'It Wasn’t Better Before. Onward and Upward.'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+quickly and so they change it—the people around them have no idea what will
+happen next. When Greens and Blues have just gotten used to the new
+organization and think they have finally grasped how things are supposed to
+work, well, a Red will have already outlined the next step.  
+41
+
+
+====================================================================================================
+CHUNK #79
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 42, 'chapter': '**4** Red Behavior', 'heading': 'Conclusions on Red Behavior'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+So what do you think? Do you know any Reds? Do you have any around you? If
+you want to get to know some famous Red people, consider Steve Jobs, FDR,
+Venus Williams, or Margaret Thatcher. There’s also Barack Obama and Mother
+Teresa.
+Oh yes, it’s true. If you consider Mother Teresa’s deeds, the strength she
+needed and whom she had to deal with—the world’s foremost leaders—to
+achieve what she did, then you’ll realize that she was extremely determined and
+forceful. A typical Red profile.  
+42
+
+
+====================================================================================================
+CHUNK #80
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 43, 'chapter': '**5** Yellow Behavior'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+How to Recognize Someone Whose Head Is in the Clouds and Get Him Back to
+Reality Again  
+43
+
+
+====================================================================================================
+CHUNK #81
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 44, 'chapter': '**5** Yellow Behavior', 'heading': '“That Sounds Fun! Let Me Do It!”'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+In the Hippocratic world, we have now come to the sanguine person. What
+other words can be used to describe him? Optimistic and cheerful, a person with a
+bright outlook on life. The thesaurus even suggests the epithet a man of
+possibilities … how about that? It is, in fact, an excellent description of Yellow
+behavior. These are people who live to live, always finding opportunities for
+enjoyment. Life is a banquet, and Yellows will see to it that they savor every bite.
+They are driven by merriment and laughter. And why not? The sun is always
+shining somewhere.
+Do you know anyone who sees sunshine where others see dark clouds? Have
+you met anyone who can laugh even though he hasn’t had any good news for
+months? Then you’ve met a Yellow. Have you been at a party and wondered why
+everyone flocks around a particular person, man or woman? Well, in the center of
+the circle there’s a Yellow, entertaining anyone who wants to laugh. Yellows
+
+
+====================================================================================================
+CHUNK #82
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 44, 'chapter': '**5** Yellow Behavior', 'heading': '“That Sounds Fun! Let Me Do It!”'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+everyone flocks around a particular person, man or woman? Well, in the center of
+the circle there’s a Yellow, entertaining anyone who wants to laugh. Yellows
+make sure that the atmosphere is at its zenith so that every event becomes a
+marvelous party. When something is no longer fun, they move on to another place
+where the atmosphere is better.
+Recognizing a Yellow is easy. He’s the one who’s talking all the time. He’s the
+one who gives answers rather than asking questions—often answering questions
+that no one has even asked. He answers a question by telling a story that may or
+may not have anything to do with the issue. But it really doesn’t matter, because
+he will put you in a cheerful mood. Besides, his unshakably positive attitude also
+makes it impossible for you to feel upset for long.
+I would even go so far as to argue that Yellows are more popular than other
+colors. How can I say that? Look for yourself. They entertain, put people in a
+
+
+====================================================================================================
+CHUNK #83
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 44, 'chapter': '**5** Yellow Behavior', 'heading': '“That Sounds Fun! Let Me Do It!”'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+I would even go so far as to argue that Yellows are more popular than other
+colors. How can I say that? Look for yourself. They entertain, put people in a
+good mood, and fun things always happen around them. They know how to
+capture everyone’s attention and how to keep it. They make us feel important.
+They are just nice to be around.
+They are also very typically touchy-feely people. Like Reds, Yellows are very
+willing to make quick decisions, but they can rarely explain why using rational
+reasoning. A more likely response would be, “It just felt right.” And sure, gut
+feelings shouldn’t be underestimated. Studies have shown that gut feelings are
+right more often than we think. But that’s not the kind of gut feeling we’re talking
+about here. Yellows often make decisions that are based on feeling simply
+because no thought was ever involved.
+I have a sister who is Yellow. Marita is so easygoing in her manner that I have
+
+
+====================================================================================================
+CHUNK #84
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 44, 'chapter': '**5** Yellow Behavior', 'heading': '“That Sounds Fun! Let Me Do It!”'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+about here. Yellows often make decisions that are based on feeling simply
+because no thought was ever involved.
+I have a sister who is Yellow. Marita is so easygoing in her manner that I have
+never heard anyone utter a single negative word about her. Never. I may be  
+44
+
+
+====================================================================================================
+CHUNK #85
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 45, 'chapter': '**5** Yellow Behavior', 'heading': '“That Sounds Fun! Let Me Do It!”'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+biased, but I have never met anyone who doesn’t immediately like her. She has an
+entirely unique ability to connect with every person she meets.
+Marita always has something entertaining to say. However, some of these
+things are so peculiar that I sometimes have to ask her what she was thinking
+when she said them. With a burst of laughter, she usually replies, “Thinking? I
+wasn’t!”
+In many ways, it’s liberating when I visit her and her husband, Leif. Their
+almost incomprehensible ability to see bright spots in everything around them is
+so delightful that it frees my own easygoing disposition. I am never as happy and
+exhilarated as when I visit them. For years, I wondered why this was, and have
+reached the conclusion that Yellow behavior is simply contagious.
+If I say to my sister, “It looks like it is going to rain,” she simply replies, “I
+can’t imagine that.” Pointing to the window, I say to her, “But look, it’s actually
+
+
+====================================================================================================
+CHUNK #86
+====================================================================================================
+Metadata: {'book': 'Surrounded by Idiots (Thomas Erikson) (z-lib.org)-1-45.pdf', 'page': 45, 'chapter': '**5** Yellow Behavior', 'heading': '“That Sounds Fun! Let Me Do It!”'}
+----------------------------------------------------------------------------------------------------
+CONTENT:
+----------------------------------------------------------------------------------------------------
+If I say to my sister, “It looks like it is going to rain,” she simply replies, “I
+can’t imagine that.” Pointing to the window, I say to her, “But look, it’s actually
+raining. It is quite dark out there; we could have thunder before this is over.”
+“Sure,” she says, “but after that the sun will come out! Just wait and see.” Then
+she laughs. Again. While the rain pours outside, she sits on the sofa, unabashedly
+having fun. And I, along with everyone else, laugh along because it’s impossible
+to resist.  
+45
+

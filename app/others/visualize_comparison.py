@@ -22,7 +22,7 @@ st.set_page_config(
 @st.cache_data
 def load_comparison_data():
     try:
-        with open("rag_comparison_results.json", "r", encoding="utf-8") as f:
+        with open("../Json/rag_comparison_results.json", "r", encoding="utf-8") as f:
             return json.load(f)
     except FileNotFoundError:
         st.error("❌ rag_comparison_results.json not found. Please run compare_rag.py first!")

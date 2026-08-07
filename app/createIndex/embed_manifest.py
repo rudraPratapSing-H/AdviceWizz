@@ -7,7 +7,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # Initialize embeddings model
 embeddings = OllamaEmbeddings(model="mxbai-embed-large")
 
-LIB_FILE = os.path.join(BASE_DIR, "library_manifest.json")
+LIB_FILE = os.path.join(BASE_DIR, "..", "Json", "library_manifest.json")
 def embed_library_manifest():
     """Read library_manifest.json and add embedding vectors for each book description."""
     

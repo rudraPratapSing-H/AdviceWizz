@@ -9,10 +9,10 @@ from langchain_ollama import OllamaEmbeddings
 
 # --- Configuration ---
 # 1. Set the path to your folder containing the PDF files
-BOOK_FOLDER_PATH = "docs" # Example path
+BOOK_FOLDER_PATH = "../docs" # Example path
 
 # 2. Set the path where you want to save the FAISS index
-FAISS_INDEX_PATH = "faiss_index2"
+FAISS_INDEX_PATH = "../faiss_index2"
 
 # 3. Choose your embedding model (uncomment one)
 # --- Option A: Local & Private (Ollama) ---

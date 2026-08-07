@@ -12,6 +12,23 @@ import fitz  # PyMuPDF
 from collections import Counter
 import os
 from pathlib import Path
+import io
+from PIL import Image
+
+# Optional OCR / table extraction dependencies
+try:
+    import pytesseract
+    TESSERACT_AVAILABLE = True
+except Exception:
+    pytesseract = None
+    TESSERACT_AVAILABLE = False
+
+try:
+    import pdfplumber
+    PDFPLUMBER_AVAILABLE = True
+except Exception:
+    pdfplumber = None
+    PDFPLUMBER_AVAILABLE = False
 
 
 
@@ -20,9 +37,9 @@ load_dotenv()
 
 # --- Configuration ---
 # 1. Set the path to your folder containing the PDF files
-BOOK_FOLDER_PATH = Path("books")
+BOOK_FOLDER_PATH = Path("../books")
 # 2. Set the path where you want to save the FAISS index
-FAISS_INDEX_PATH = "faiss_index_gemini"
+FAISS_INDEX_PATH = "../faiss_index_gemini"
 
 # 3. Using local Ollama embeddings
 from langchain_ollama import OllamaEmbeddings
@@ -31,12 +48,13 @@ embeddings = OllamaEmbeddings(model="mxbai-embed-large")
 # ---------------------
 class PDFStructureExtractor:
     def __init__(self, pdf_path):
+        self.pdf_path = pdf_path
         self.doc = fitz.open(pdf_path)
         self.body_font_size = 0
 
     def analyze_fonts(self):
         font_sizes = []
-        for page_num in range(min(5, len(self.doc))):
+        for page_num in range(min(45, len(self.doc))):
             blocks = self.doc[page_num].get_text("dict")["blocks"]
             for block in blocks:
                 if "lines" in block:
@@ -53,6 +71,42 @@ class PDFStructureExtractor:
         page = self.doc[page_number]
         blocks = page.get_text("dict")["blocks"]
         page_content = []
+
+        # 1) Extract tables via pdfplumber (if available)
+        if PDFPLUMBER_AVAILABLE:
+            try:
+                with pdfplumber.open(self.pdf_path) as pdf:
+                    if page_number < len(pdf.pages):
+                        p = pdf.pages[page_number]
+                        tables = p.extract_tables()
+                        for table in tables:
+                            # convert table rows to markdown-like text
+                            md = "\n".join("|" + "|".join([cell or "" for cell in row]) + "|" for row in table)
+                            page_content.append({"type": "table", "text": f"[Table]\n{md}"})
+            except Exception:
+                pass
+
+        # 2) Extract images and run OCR (if available)
+        if TESSERACT_AVAILABLE:
+            try:
+                images = page.get_images(full=True)
+                for img in images:
+                    xref = img[0]
+                    img_dict = self.doc.extract_image(xref)
+                    image_bytes = img_dict.get("image")
+                    if image_bytes:
+                        try:
+                            img_pil = Image.open(io.BytesIO(image_bytes)).convert("RGB")
+                            ocr_text = pytesseract.image_to_string(img_pil).strip()
+                            if ocr_text:
+                                page_content.append({"type": "image", "text": f"[Image OCR] {ocr_text}"})
+                            else:
+                                page_content.append({"type": "image", "text": "[Image: no OCR text found]"})
+                        except Exception:
+                            # ignore image OCR errors
+                            pass
+            except Exception:
+                pass
         
         for block in blocks:
             if block['type'] == 1: 
